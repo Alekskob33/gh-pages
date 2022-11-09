@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Мосфарма | Продукция</title>
+    <script defer="defer" src="js/bundle.js"></script>
+    <link href="css/style.bundle.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__container container container--big">
+        <div class="header__logo logo">
+          <img class="logo__image logo__image--white" src="img/logo-white.svg" width="165" height="35" />
+          <img class="logo__image logo__image--green" src="img/logo-green.svg" width="165" height="35" />
+        </div>
+        <nav class="header__menu main-menu main-menu--white">
+          <ul class="main-menu__list">
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link">О компании</a>
+              <ul class="main-menu__sublist">
+                <li class="main-menu__sublist-item">
+                  <a href="./history.html" class="main-menu__sublist-link">история</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./production.html" class="main-menu__sublist-link">производство</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./quality-system.html" class="main-menu__sublist-link">система качества</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./career.html" class="main-menu__sublist-link">карьера</a>
+                </li>
+              </ul>
+            </li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Продукция</a></li>
+            <li class="main-menu__item">
+              <a href="./contract-production.html" class="main-menu__link">Контрактное производство</a>
+            </li>
+            <li class="main-menu__item"><a href="./our-pharmacy.html" class="main-menu__link">Аптека</a></li>
+            <li class="main-menu__item"><a href="./contacts.html" class="main-menu__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <button class="header__search-button search-button search-toggle">
+          <svg class="search-button__icon" width="27" height="28">
+            <use xlink:href="img/sprite.svg#magnifier"></use>
+          </svg>
+        </button>
+        <button class="header__lang-switcher lang-switcher">EN</button>
+        <button class="header__burger burger" id="toggle-big-menu">
+          <svg class="burger__icon burger__icon--open" width="38" height="12">
+            <use xlink:href="img/sprite.svg#burger"></use>
+          </svg>
+          <svg class="burger__icon burger__icon--close" width="27" height="28">
+            <use xlink:href="img/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <div class="section big-menu" id="big-menu">
+      <div class="big-menu__container container container--big">
+        <div class="big-menu__left">
+          <p class="big-menu-callback__paragraph">Есть, что обсудить?<br />Напишите нам.</p>
+          <a class="big-menu-callback__link" href="mailto:info@mosfarma.ru">info@mosfarma.ru</a>
+        </div>
+        <ul class="big-menu__list">
+          <li class="big-menu__item">
+            <a href="./home.html" class="big-menu__link"
+              ><span class="big-menu__number">01</span> <span class="big-menu__label">Главная</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <span class="big-menu__link"
+              ><span class="big-menu__number">02</span> <span class="big-menu__label">О компании</span></span
+            >
+            <div class="big-menu__sublist-container">
+              <ul class="big-menu__sublist">
+                <li class="big-menu__sublist-item">
+                  <a href="./history.html" class="big-menu__link big-menu__sublist-link">история</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="#" class="big-menu__link big-menu__sublist-link">производство</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="./quality-system" class="big-menu__link big-menu__sublist-link">система качества</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="./career.html" class="big-menu__link big-menu__sublist-link">карьера</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="big-menu__item">
+            <a href="#" class="big-menu__link"
+              ><span class="big-menu__number">03</span> <span class="big-menu__label">Продукция</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./contract-production.html" class="big-menu__link"
+              ><span class="big-menu__number">04</span> <span class="big-menu__label">Контрактное производство</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./our-pharmacy.html" class="big-menu__link"
+              ><span class="big-menu__number">05</span> <span class="big-menu__label">Аптека МосФарма</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./contacts.html" class="big-menu__link"
+              ><span class="big-menu__number">06</span> <span class="big-menu__label">Контакты</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./inspection.html" class="big-menu__link"
+              ><span class="big-menu__number">07</span> <span class="big-menu__label">Фармаконадзор</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <footer class="big-menu__footer footer">
+        <div class="footer__container container container--big">
+          <div class="footer__middle">
+            <div class="footer__column">
+              <p class="footer__column-title typography-h5 slice-text">Адрес</p>
+              <p class="footer__address slideup-text">125239, Москва<br />Фармацевтический проезд, д. 1</p>
+              <a href="#" class="link link--light-green"
+                ><span class="link__text-container"><span class="link__text">на карте </span></span
+                ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+              ></a>
+            </div>
+            <div class="footer__column footer__column--report">
+              <p class="footer__column-title footer__column-title--report typography-h5 slice-text">Сообщить</p>
+              <p class="footer__note slideup-text">
+                Сообщить о случае возникновения нежелательных явлений, связанных с применением лекарственного препарата,
+                можно заполнив форму обращения в службу фармаконадзора
+              </p>
+              <a href="#" class="link link--light-green"
+                ><span class="link__text-container"><span class="link__text">сообщить </span></span
+                ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+              ></a>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <p class="footer__copyright">© <span class="js-year"></span> 2022</p>
+            <a href="#" class="footer__privacy-policy">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="section search">
+      <div class="search__container container">
+        <div class="search" id="search">
+          <form class="search__top">
+            <input class="search__input" placeholder="Поиск" />
+            <button type="submit" class="search__submit">
+              <svg class="search__submit-icon" width="37" height="38">
+                <use xlink:href="img/sprite.svg#magnifier"></use>
+              </svg>
+              <span class="visually-hidden">Искать</span>
+            </button>
+            <button type="button" class="search__close search-toggle">
+              <svg class="search__close-icon" width="25" height="25"><use xlink:href="img/sprite.svg#close"></use></svg>
+              <span class="visually-hidden">Закрыть поиск</span>
+            </button>
+          </form>
+          <button class="search__clean clean">
+            <svg class="clean__icon" width="21" height="22"><use xlink:href="img/sprite.svg#close"></use></svg>
+            <span>Очистить</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.querySelector("#header").classList.add("header--inner", "inner");
+    </script>
+    <div class="inner-first products-first" id="first">
+      <div class="products-first__container container">
+        <div class="products-first__top">
+          <h1 class="products-first__title typography-h1 slice-text">Продукция</h1>
+          <img
+            class="products-first__circle rotating-circle"
+            src="img/products-page/products-circle.svg"
+            width="185"
+            height="185"
+          />
+        </div>
+        <form class="products-first__filter products-filter">
+          <div class="products-filter__top">
+            <div class="products-filter__item">
+              <div class="input input--white">
+                <label class="input__label"
+                  ><input class="input__field" placeholder=" " /> <span class="input__hint">Поиск препарата</span>
+                  <span class="input__bottom-border"></span>
+                  <svg class="input__icon" width="27" height="28"><use xlink:href="img/sprite.svg#magnifier"></use></svg
+                ></label>
+              </div>
+            </div>
+            <div class="products-filter__item">
+              <div class="dropdown">
+                <button class="dropdown__head" type="button">
+                  <span class="dropdown__head-label" data-label="Область применения">Область применения </span
+                  ><svg class="dropdown__head-icon" width="27" height="28">
+                    <use xlink:href="img/sprite.svg#dropdown-arrow"></use>
+                  </svg>
+                </button>
+                <div class="dropdown__body">
+                  <ul class="dropdown__list">
+                    <li class="dropdown__item">
+                      <input
+                        type="radio"
+                        name="scope"
+                        value="scope-1"
+                        id="scope-1"
+                        class="dropdown__field visually-hidden"
+                      />
+                      <label class="dropdown__label" for="scope-1">Область 1</label>
+                    </li>
+                    <li class="dropdown__item">
+                      <input
+                        type="radio"
+                        name="scope"
+                        value="scope-2"
+                        id="scope-2"
+                        class="dropdown__field visually-hidden"
+                      />
+                      <label class="dropdown__label" for="scope-2">Область 2</label>
+                    </li>
+                    <li class="dropdown__item">
+                      <input
+                        type="radio"
+                        name="scope"
+                        value="scope-3"
+                        id="scope-3"
+                        class="dropdown__field visually-hidden"
+                      />
+                      <label class="dropdown__label" for="scope-3">Область 3</label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="products-filter__item">
+              <div class="dropdown">
+                <button class="dropdown__head" type="button">
+                  <span class="dropdown__head-label" data-label="Категория">Категория </span
+                  ><svg class="dropdown__head-icon" width="27" height="28">
+                    <use xlink:href="img/sprite.svg#dropdown-arrow"></use>
+                  </svg>
+                </button>
+                <div class="dropdown__body">
+                  <ul class="dropdown__list">
+                    <li class="dropdown__item">
+                      <input
+                        type="radio"
+                        name="category"
+                        value="category-1"
+                        id="category-1"
+                        class="dropdown__field visually-hidden"
+                      />
+                      <label class="dropdown__label" for="category-1">Категория 1</label>
+                    </li>
+                    <li class="dropdown__item">
+                      <input
+                        type="radio"
+                        name="category"
+                        value="category-2"
+                        id="category-2"
+                        class="dropdown__field visually-hidden"
+                      />
+                      <label class="dropdown__label" for="category-2">Категория 2</label>
+                    </li>
+                    <li class="dropdown__item">
+                      <input
+                        type="radio"
+                        name="category"
+                        value="category-3"
+                        id="category-3"
+                        class="dropdown__field visually-hidden"
+                      />
+                      <label class="dropdown__label" for="category-3">Категория 3</label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products-filter__bottom">
+            <ul class="products-filter__tags">
+              <li class="products-filter__tag checked-tag">
+                <input
+                  class="checked-tag__field visually-hidden"
+                  type="checkbox"
+                  id="filter-tags-all"
+                  name="filter-tags"
+                  checked="checked"
+                />
+                <label class="checked-tag__label" for="filter-tags-all"
+                  ><span class="checked-tag__text">Все</span></label
+                >
+              </li>
+              <li class="products-filter__tag checked-tag">
+                <input
+                  class="checked-tag__field visually-hidden"
+                  type="checkbox"
+                  id="filter-tags-kids"
+                  name="filter-tags"
+                />
+                <label class="checked-tag__label" for="filter-tags-kids"
+                  ><span class="checked-tag__text">Детские</span></label
+                >
+              </li>
+              <li class="products-filter__tag checked-tag">
+                <input
+                  class="checked-tag__field visually-hidden"
+                  type="checkbox"
+                  id="filter-tags-adult"
+                  name="filter-tags"
+                />
+                <label class="checked-tag__label" for="filter-tags-adult"
+                  ><span class="checked-tag__text">Взрослые</span></label
+                >
+              </li>
+              <li class="products-filter__tag checked-tag">
+                <input
+                  class="checked-tag__field visually-hidden"
+                  type="checkbox"
+                  id="filter-tags-without-prescription"
+                  name="filter-tags"
+                />
+                <label class="checked-tag__label" for="filter-tags-without-prescription"
+                  ><span class="checked-tag__text">Без рецепта</span></label
+                >
+              </li>
+              <li class="products-filter__tag checked-tag">
+                <input
+                  class="checked-tag__field visually-hidden"
+                  type="checkbox"
+                  id="filter-tags-by-prescription"
+                  name="filter-tags"
+                />
+                <label class="checked-tag__label" for="filter-tags-by-prescription"
+                  ><span class="checked-tag__text">По рецепту</span></label
+                >
+              </li>
+            </ul>
+            <button type="button" class="products-filter__clean clean slideup-text">
+              <svg class="clean__icon" width="21" height="22"><use xlink:href="img/sprite.svg#close"></use></svg>
+              <span>Очистить фильтры</span>
+            </button>
+          </div>
+        </form>
+      </div>
+      <a href="#catalog" class="inner-first__scroll-down products-first__scroll-down scroll-down-button"
+        ><span class="visually-hidden">Следующий экран</span>
+        <svg class="scroll-down-button__icon" width="23" height="37">
+          <use xlink:href="img/sprite.svg#arrow-scroll-down"></use></svg
+      ></a>
+    </div>
+    <section class="products-list" id="catalog">
+      <div class="container products__container">
+        <ul class="products-list__listing">
+          <li class="products-list__item product">
+            <div class="product__image-container">
+              <img
+                class="product__image"
+                src="img/products/gamamelis.png"
+                width="250"
+                height="250"
+                alt="Название лекарства"
+              />
+            </div>
+            <div class="product__info">
+              <h4 class="product__name">Гамамелис <span class="product__name-r">®</span></h4>
+              <div class="product__description"><p>Ректальные свечи для детей</p></div>
+              <div class="product__note">гастроэнтерология</div>
+            </div>
+            <a href="#" class="product__link"><span class="visually-hidden">Добавить товар в корзину</span></a>
+          </li>
+          <li class="products-list__item product">
+            <div class="product__image-container">
+              <img
+                class="product__image"
+                src="img/products/fukortsin.png"
+                width="250"
+                height="250"
+                alt="Название лекарства"
+              />
+            </div>
+            <div class="product__info">
+              <h4 class="product__name">Фукорцин <span class="product__name-r">®</span></h4>
+              <div class="product__description">
+                <p>Порошок-слабительное для лечения запоров и подготовки к исследованиям</p>
+              </div>
+              <div class="product__note">гастроэнтерология</div>
+            </div>
+            <a href="#" class="product__link"><span class="visually-hidden">Добавить товар в корзину</span></a>
+          </li>
+          <li class="products-list__item product">
+            <div class="product__image-container">
+              <img
+                class="product__image"
+                src="img/products/parodontocid.png"
+                width="250"
+                height="250"
+                alt="Название лекарства"
+              />
+            </div>
+            <div class="product__info">
+              <h4 class="product__name">Пародонтоцид <span class="product__name-r">®</span></h4>
+              <div class="product__description"><p>Цинка оксид. Суспензия для наружного применения.</p></div>
+              <div class="product__note">дерматопротекторное средство</div>
+            </div>
+            <a href="#" class="product__link"><span class="visually-hidden">Добавить товар в корзину</span></a>
+          </li>
+          <li class="products-list__item product">
+            <div class="product__image-container">
+              <img
+                class="product__image"
+                src="img/products/valoserdin.png"
+                width="250"
+                height="250"
+                alt="Название лекарства"
+              />
+            </div>
+            <div class="product__info">
+              <h4 class="product__name">Валосердин <span class="product__name-r">®</span></h4>
+              <div class="product__description"><p>Капли для приема внутрь</p></div>
+              <div class="product__note">седативное средство</div>
+            </div>
+            <a href="#" class="product__link"><span class="visually-hidden">Добавить товар в корзину</span></a>
+          </li>
+          <li class="products-list__item product">
+            <div class="product__image-container">
+              <img
+                class="product__image"
+                src="img/products/lavakol.png"
+                width="250"
+                height="250"
+                alt="Название лекарства"
+              />
+            </div>
+            <div class="product__info">
+              <h4 class="product__name">Лавакол <span class="product__name-r">®</span></h4>
+              <div class="product__description">
+                <p>Порошок-слабительное для лечения запоров и подготовки к исследованиям</p>
+              </div>
+              <div class="product__note">гастроэнтерология</div>
+            </div>
+            <a href="#" class="product__link"><span class="visually-hidden">Добавить товар в корзину</span></a>
+          </li>
+          <li class="products-list__item product">
+            <div class="product__image-container">
+              <img
+                class="product__image"
+                src="img/products/gastrogutal.png"
+                width="250"
+                height="250"
+                alt="Название лекарства"
+              />
+            </div>
+            <div class="product__info">
+              <h4 class="product__name">Гастрогуттал <span class="product__name-r">®</span></h4>
+              <div class="product__description"><p>Спазмолитическое средство растительного происхождения</p></div>
+              <div class="product__note">гастроэнтерология</div>
+            </div>
+            <a href="#" class="product__link"><span class="visually-hidden">Добавить товар в корзину</span></a>
+          </li>
+          <li class="products-list__item product">
+            <div class="product__image-container">
+              <img
+                class="product__image"
+                src="img/products/gamamelis.png"
+                width="250"
+                height="250"
+                alt="Название лекарства"
+              />
+            </div>
+            <div class="product__info">
+              <h4 class="product__name">Гамамелис <span class="product__name-r">®</span></h4>
+              <div class="product__description"><p>Ректальные свечи для детей</p></div>
+              <div class="product__note">гастроэнтерология</div>
+            </div>
+            <a href="#" class="product__link"><span class="visually-hidden">Добавить товар в корзину</span></a>
+          </li>
+          <li class="products-list__item product">
+            <div class="product__image-container">
+              <img
+                class="product__image"
+                src="img/products/fukortsin.png"
+                width="250"
+                height="250"
+                alt="Название лекарства"
+              />
+            </div>
+            <div class="product__info">
+              <h4 class="product__name">Фукорцин <span class="product__name-r">®</span></h4>
+              <div class="product__description">
+                <p>Порошок-слабительное для лечения запоров и подготовки к исследованиям</p>
+              </div>
+              <div class="product__note">гастроэнтерология</div>
+            </div>
+            <a href="#" class="product__link"><span class="visually-hidden">Добавить товар в корзину</span></a>
+          </li>
+          <li class="products-list__item product">
+            <div class="product__image-container">
+              <img
+                class="product__image"
+                src="img/products/parodontocid.png"
+                width="250"
+                height="250"
+                alt="Название лекарства"
+              />
+            </div>
+            <div class="product__info">
+              <h4 class="product__name">Пародонтоцид <span class="product__name-r">®</span></h4>
+              <div class="product__description"><p>Цинка оксид. Суспензия для наружного применения.</p></div>
+              <div class="product__note">дерматопротекторное средство</div>
+            </div>
+            <a href="#" class="product__link"><span class="visually-hidden">Добавить товар в корзину</span></a>
+          </li>
+          <li class="products-list__item product">
+            <div class="product__image-container">
+              <img
+                class="product__image"
+                src="img/products/valoserdin.png"
+                width="250"
+                height="250"
+                alt="Название лекарства"
+              />
+            </div>
+            <div class="product__info">
+              <h4 class="product__name">Валосердин <span class="product__name-r">®</span></h4>
+              <div class="product__description"><p>Капли для приема внутрь</p></div>
+              <div class="product__note">седативное средство</div>
+            </div>
+            <a href="#" class="product__link"><span class="visually-hidden">Добавить товар в корзину</span></a>
+          </li>
+          <li class="products-list__item product">
+            <div class="product__image-container">
+              <img
+                class="product__image"
+                src="img/products/lavakol.png"
+                width="250"
+                height="250"
+                alt="Название лекарства"
+              />
+            </div>
+            <div class="product__info">
+              <h4 class="product__name">Лавакол <span class="product__name-r">®</span></h4>
+              <div class="product__description">
+                <p>Порошок-слабительное для лечения запоров и подготовки к исследованиям</p>
+              </div>
+              <div class="product__note">гастроэнтерология</div>
+            </div>
+            <a href="#" class="product__link"><span class="visually-hidden">Добавить товар в корзину</span></a>
+          </li>
+          <li class="products-list__item product">
+            <div class="product__image-container">
+              <img
+                class="product__image"
+                src="img/products/gastrogutal.png"
+                width="250"
+                height="250"
+                alt="Название лекарства"
+              />
+            </div>
+            <div class="product__info">
+              <h4 class="product__name">Гастрогуттал <span class="product__name-r">®</span></h4>
+              <div class="product__description"><p>Спазмолитическое средство растительного происхождения</p></div>
+              <div class="product__note">гастроэнтерология</div>
+            </div>
+            <a href="#" class="product__link"><span class="visually-hidden">Добавить товар в корзину</span></a>
+          </li>
+          <li class="products-list__item product">
+            <div class="product__image-container">
+              <img
+                class="product__image"
+                src="img/products/gamamelis.png"
+                width="250"
+                height="250"
+                alt="Название лекарства"
+              />
+            </div>
+            <div class="product__info">
+              <h4 class="product__name">Гамамелис <span class="product__name-r">®</span></h4>
+              <div class="product__description"><p>Ректальные свечи для детей</p></div>
+              <div class="product__note">гастроэнтерология</div>
+            </div>
+            <a href="#" class="product__link"><span class="visually-hidden">Добавить товар в корзину</span></a>
+          </li>
+          <li class="products-list__item product">
+            <div class="product__image-container">
+              <img
+                class="product__image"
+                src="img/products/fukortsin.png"
+                width="250"
+                height="250"
+                alt="Название лекарства"
+              />
+            </div>
+            <div class="product__info">
+              <h4 class="product__name">Фукорцин <span class="product__name-r">®</span></h4>
+              <div class="product__description">
+                <p>Порошок-слабительное для лечения запоров и подготовки к исследованиям</p>
+              </div>
+              <div class="product__note">гастроэнтерология</div>
+            </div>
+            <a href="#" class="product__link"><span class="visually-hidden">Добавить товар в корзину</span></a>
+          </li>
+          <li class="products-list__item product">
+            <div class="product__image-container">
+              <img
+                class="product__image"
+                src="img/products/parodontocid.png"
+                width="250"
+                height="250"
+                alt="Название лекарства"
+              />
+            </div>
+            <div class="product__info">
+              <h4 class="product__name">Пародонтоцид <span class="product__name-r">®</span></h4>
+              <div class="product__description"><p>Цинка оксид. Суспензия для наружного применения.</p></div>
+              <div class="product__note">дерматопротекторное средство</div>
+            </div>
+            <a href="#" class="product__link"><span class="visually-hidden">Добавить товар в корзину</span></a>
+          </li>
+          <li class="products-list__item product">
+            <div class="product__image-container">
+              <img
+                class="product__image"
+                src="img/products/valoserdin.png"
+                width="250"
+                height="250"
+                alt="Название лекарства"
+              />
+            </div>
+            <div class="product__info">
+              <h4 class="product__name">Валосердин <span class="product__name-r">®</span></h4>
+              <div class="product__description"><p>Капли для приема внутрь</p></div>
+              <div class="product__note">седативное средство</div>
+            </div>
+            <a href="#" class="product__link"><span class="visually-hidden">Добавить товар в корзину</span></a>
+          </li>
+          <li class="products-list__item product">
+            <div class="product__image-container">
+              <img
+                class="product__image"
+                src="img/products/lavakol.png"
+                width="250"
+                height="250"
+                alt="Название лекарства"
+              />
+            </div>
+            <div class="product__info">
+              <h4 class="product__name">Лавакол <span class="product__name-r">®</span></h4>
+              <div class="product__description">
+                <p>Порошок-слабительное для лечения запоров и подготовки к исследованиям</p>
+              </div>
+              <div class="product__note">гастроэнтерология</div>
+            </div>
+            <a href="#" class="product__link"><span class="visually-hidden">Добавить товар в корзину</span></a>
+          </li>
+          <li class="products-list__item product">
+            <div class="product__image-container">
+              <img
+                class="product__image"
+                src="img/products/gastrogutal.png"
+                width="250"
+                height="250"
+                alt="Название лекарства"
+              />
+            </div>
+            <div class="product__info">
+              <h4 class="product__name">Гастрогуттал <span class="product__name-r">®</span></h4>
+              <div class="product__description"><p>Спазмолитическое средство растительного происхождения</p></div>
+              <div class="product__note">гастроэнтерология</div>
+            </div>
+            <a href="#" class="product__link"><span class="visually-hidden">Добавить товар в корзину</span></a>
+          </li>
+        </ul>
+        <ul class="products-list__pagination pagination">
+          <li class="pagination__item">
+            <span class="pagination__link pagination__link--active"><span class="pagination__link-text">1</span></span>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link"><span class="pagination__link-text">2</span></a>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link"><span class="pagination__link-text">3</span></a>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link"><span class="pagination__link-text">4</span></a>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link"><span class="pagination__link-text">5</span></a>
+          </li>
+          <li class="pagination__item">
+            <a href="#" class="pagination__link"><span class="pagination__link-text">6</span></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <a href="#first" class="scroll-up-button" id="scroll-up"
+      ><span class="visually-hidden">Наверх</span>
+      <svg class="scroll-up-button__icon" width="23" height="37">
+        <use xlink:href="img/sprite.svg#arrow-scroll-down"></use></svg
+    ></a>
+    <footer class="footer">
+      <div class="footer__container container container--big">
+        <nav class="footer__top">
+          <img
+            class="footer__logo logo logo__image"
+            src="img/logo-light-green.svg"
+            width="121"
+            height="25"
+            alt="Логотип МосФарма"
+          />
+          <ul class="footer__menu footer-menu">
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">О компании</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Продукция</a></li>
+            <li class="footer-menu__item">
+              <a href="./contract-production.html" class="footer-menu__link">Контрактное производство</a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="./our-pharmacy.html" class="footer-menu__link">Аптека МосФарма</a>
+            </li>
+            <li class="footer-menu__item"><a href="./contacts.html" class="footer-menu__link">Контакты</a></li>
+            <li class="footer-menu__item"><a href="./inspection.html" class="footer-menu__link">Фармаконадзор</a></li>
+          </ul>
+        </nav>
+        <div class="footer__middle">
+          <div class="footer__column footer__column--feedback">
+            <p class="footer__column-title typography-h5 slice-text">Есть, что обсудить?<br />Напишите нам</p>
+            <a href="mailto:info@mosfarma.ru" class="footer__email button button--big button--lowercase"
+              ><span class="button__text-container"><span class="button__text">info@mosfarma.ru</span></span></a
+            >
+          </div>
+          <div class="footer__column">
+            <p class="footer__column-title typography-h5 slice-text">Адрес</p>
+            <p class="footer__address slideup-text">125239, Москва<br />Фармацевтический проезд, д. 1</p>
+            <a href="#" class="link link--light-green"
+              ><span class="link__text-container"><span class="link__text">на карте </span></span
+              ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+            ></a>
+          </div>
+          <div class="footer__column footer__column--report">
+            <p class="footer__column-title footer__column-title--report typography-h5 slice-text">Сообщить</p>
+            <p class="footer__note slideup-text">
+              Сообщить о случае возникновения нежелательных явлений, связанных с применением лекарственного препарата,
+              можно заполнив форму обращения в службу фармаконадзора
+            </p>
+            <a href="#" class="link link--light-green"
+              ><span class="link__text-container"><span class="link__text">сообщить </span></span
+              ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+            ></a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">© <span class="js-year">2020</span></p>
+          <a href="#" class="footer__privacy-policy">Политика конфиденциальности</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Мосфарма | Наша аптека</title>
+    <script defer="defer" src="js/bundle.js"></script>
+    <link href="css/style.bundle.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__container container container--big">
+        <div class="header__logo logo">
+          <img class="logo__image logo__image--white" src="img/logo-white.svg" width="165" height="35" />
+          <img class="logo__image logo__image--green" src="img/logo-green.svg" width="165" height="35" />
+        </div>
+        <nav class="header__menu main-menu main-menu--white">
+          <ul class="main-menu__list">
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link">О компании</a>
+              <ul class="main-menu__sublist">
+                <li class="main-menu__sublist-item">
+                  <a href="./history.html" class="main-menu__sublist-link">история</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./production.html" class="main-menu__sublist-link">производство</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./quality-system.html" class="main-menu__sublist-link">система качества</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./career.html" class="main-menu__sublist-link">карьера</a>
+                </li>
+              </ul>
+            </li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Продукция</a></li>
+            <li class="main-menu__item">
+              <a href="./contract-production.html" class="main-menu__link">Контрактное производство</a>
+            </li>
+            <li class="main-menu__item"><a href="./our-pharmacy.html" class="main-menu__link">Аптека</a></li>
+            <li class="main-menu__item"><a href="./contacts.html" class="main-menu__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <button class="header__search-button search-button search-toggle">
+          <svg class="search-button__icon" width="27" height="28">
+            <use xlink:href="img/sprite.svg#magnifier"></use>
+          </svg>
+        </button>
+        <button class="header__lang-switcher lang-switcher">EN</button>
+        <button class="header__burger burger" id="toggle-big-menu">
+          <svg class="burger__icon burger__icon--open" width="38" height="12">
+            <use xlink:href="img/sprite.svg#burger"></use>
+          </svg>
+          <svg class="burger__icon burger__icon--close" width="27" height="28">
+            <use xlink:href="img/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <div class="section big-menu" id="big-menu">
+      <div class="big-menu__container container container--big">
+        <div class="big-menu__left">
+          <p class="big-menu-callback__paragraph">Есть, что обсудить?<br />Напишите нам.</p>
+          <a class="big-menu-callback__link" href="mailto:info@mosfarma.ru">info@mosfarma.ru</a>
+        </div>
+        <ul class="big-menu__list">
+          <li class="big-menu__item">
+            <a href="./home.html" class="big-menu__link"
+              ><span class="big-menu__number">01</span> <span class="big-menu__label">Главная</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <span class="big-menu__link"
+              ><span class="big-menu__number">02</span> <span class="big-menu__label">О компании</span></span
+            >
+            <div class="big-menu__sublist-container">
+              <ul class="big-menu__sublist">
+                <li class="big-menu__sublist-item">
+                  <a href="./history.html" class="big-menu__link big-menu__sublist-link">история</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="#" class="big-menu__link big-menu__sublist-link">производство</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="./quality-system" class="big-menu__link big-menu__sublist-link">система качества</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="./career.html" class="big-menu__link big-menu__sublist-link">карьера</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="big-menu__item">
+            <a href="#" class="big-menu__link"
+              ><span class="big-menu__number">03</span> <span class="big-menu__label">Продукция</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./contract-production.html" class="big-menu__link"
+              ><span class="big-menu__number">04</span> <span class="big-menu__label">Контрактное производство</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./our-pharmacy.html" class="big-menu__link"
+              ><span class="big-menu__number">05</span> <span class="big-menu__label">Аптека МосФарма</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./contacts.html" class="big-menu__link"
+              ><span class="big-menu__number">06</span> <span class="big-menu__label">Контакты</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./inspection.html" class="big-menu__link"
+              ><span class="big-menu__number">07</span> <span class="big-menu__label">Фармаконадзор</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <footer class="big-menu__footer footer">
+        <div class="footer__container container container--big">
+          <div class="footer__middle">
+            <div class="footer__column">
+              <p class="footer__column-title typography-h5 slice-text">Адрес</p>
+              <p class="footer__address slideup-text">125239, Москва<br />Фармацевтический проезд, д. 1</p>
+              <a href="#" class="link link--light-green"
+                ><span class="link__text-container"><span class="link__text">на карте </span></span
+                ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+              ></a>
+            </div>
+            <div class="footer__column footer__column--report">
+              <p class="footer__column-title footer__column-title--report typography-h5 slice-text">Сообщить</p>
+              <p class="footer__note slideup-text">
+                Сообщить о случае возникновения нежелательных явлений, связанных с применением лекарственного препарата,
+                можно заполнив форму обращения в службу фармаконадзора
+              </p>
+              <a href="#" class="link link--light-green"
+                ><span class="link__text-container"><span class="link__text">сообщить </span></span
+                ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+              ></a>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <p class="footer__copyright">© <span class="js-year"></span> 2022</p>
+            <a href="#" class="footer__privacy-policy">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="section search">
+      <div class="search__container container">
+        <div class="search" id="search">
+          <form class="search__top">
+            <input class="search__input" placeholder="Поиск" />
+            <button type="submit" class="search__submit">
+              <svg class="search__submit-icon" width="37" height="38">
+                <use xlink:href="img/sprite.svg#magnifier"></use>
+              </svg>
+              <span class="visually-hidden">Искать</span>
+            </button>
+            <button type="button" class="search__close search-toggle">
+              <svg class="search__close-icon" width="25" height="25"><use xlink:href="img/sprite.svg#close"></use></svg>
+              <span class="visually-hidden">Закрыть поиск</span>
+            </button>
+          </form>
+          <button class="search__clean clean">
+            <svg class="clean__icon" width="21" height="22"><use xlink:href="img/sprite.svg#close"></use></svg>
+            <span>Очистить</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.querySelector("#header").classList.add("header--inner", "inner");
+    </script>
+    <section class="inner-first pharmacy-first">
+      <div class="pharmacy-first__container container">
+        <div class="pharmacy-first__left">
+          <h1 class="pharmacy-first__title typography-h1 slice-text">Аптека МосФарма</h1>
+          <a href="#" class="slide__button button"
+            ><span class="button__text-container"><span class="button__text">сайт аптеки </span></span
+            ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+          ></a>
+        </div>
+        <div class="pharmacy-first__right">
+          <div class="pharmacy-first__bound-container pharmacy-first__bound-container--left">
+            <img
+              class="pharmacy-first__bound"
+              src="img/out-pharmacy-page/pharmacy-first-1.png"
+              width="395"
+              height="393"
+              alt=""
+            />
+          </div>
+          <div class="pharmacy-first__bound-container pharmacy-first__bound-container--right">
+            <img
+              class="pharmacy-first__bound"
+              src="img/out-pharmacy-page/pharmacy-first-2.png"
+              width="395"
+              height="393"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <a href="#since" class="inner-first__scroll-down scroll-down-button"
+        ><span class="visually-hidden">Следующий экран</span>
+        <svg class="scroll-down-button__icon" width="23" height="37">
+          <use xlink:href="img/sprite.svg#arrow-scroll-down"></use></svg
+      ></a>
+    </section>
+    <section class="since" id="since">
+      <div class="since__container container">
+        <p class="since__year slideup-text">1971</p>
+        <p class="since__text slideup-text" data-delay="500">
+          Аптека МосФарма - одна из старейших аптек Москвы с собственным производственным отделом гомеопатических
+          препаратов
+        </p>
+        <p class="since__subtext slideup-text" data-delay="600">Основана в 1971 году</p>
+      </div>
+    </section>
+    <section class="slide homeopathic">
+      <div class="slide__container container">
+        <div class="slide__image-container homeopathic__image-container zoom-image">
+          <a data-fslightbox="gallery-1" href="img/out-pharmacy-page/homeopathic.jpg"
+            ><img
+              class="slide__image zoom-image__image"
+              src="img/out-pharmacy-page/homeopathic.jpg"
+              width="454"
+              height="471"
+              alt=""
+          /></a>
+        </div>
+        <div class="slide__text-container homeopathic__text-container">
+          <h2 class="slide__title typography-h4 slice-text">Гомеопатические препараты по индивидуальным рецептам</h2>
+          <div class="slide__paragraphs-container">
+            <div class="slide__paragraphs slideup-text">
+              <div class="slide__paragraphs typography-paragraphs">
+                <p>
+                  Представлен широкий ассортимент гомеопатических препаратов отечественных и зарубежных производителей.
+                  Производственный отдел изготавливает гомеопатические препараты по индивидульным рецептам врачей и
+                  более 500 наименований гомеопатических монопрепаратов.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="discounts">
+      <div class="discounts__container container">
+        <ul class="discounts__list">
+          <li class="discounts__item">
+            <div class="discounts__inner" data-card="card-1">
+              <p class="discounts__size">5%</p>
+              <p class="discounts__description slice-text">Скидки 5% по социальной карте Москвича</p>
+            </div>
+          </li>
+          <li class="discounts__item">
+            <div class="discounts__inner" data-card="card-2">
+              <p class="discounts__size">10%</p>
+              <p class="discounts__description slice-text">
+                До 10% по накопительной дисконтной карте в отделе готовых форм*
+              </p>
+              <p class="discounts__note">* не распространяется на ЖНВЛП и товары в отделе «Гомеопатия»</p>
+            </div>
+          </li>
+        </ul>
+        <div class="discounts__cards">
+          <div class="discounts__card-container discounts__card-container--1 active" id="card-1">
+            <img
+              class="discounts__card"
+              src="img/out-pharmacy-page/card-1.png"
+              width="297"
+              height="187"
+              alt="Социальная карта Москвича"
+            />
+          </div>
+          <div class="discounts__card-container discounts__card-container--2" id="card-2">
+            <img
+              class="discounts__card"
+              src="img/out-pharmacy-page/card-2.png"
+              width="297"
+              height="187"
+              alt="Накопительной дисконтной карте"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="booking">
+      <div class="booking__container container">
+        <div class="booking__text slideup-text">
+          <p>
+            В аптеке представлена вся продукция ЗАО «Московская фармацевтическая фабрика». Забронировать он-лайн в
+            аптеке МосФарма
+          </p>
+        </div>
+        <a href="#" class="booking__button button"
+          ><span class="button__text-container"><span class="button__text">сайт аптеки </span></span
+          ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+        ></a>
+      </div>
+      <div class="booking__running-line running-line running-line--green-bg">
+        <div class="running-line__ticker">
+          <span class="running-line__collection running-line__collection--1"
+            ><span>apteka-mosfarma.ru</span> <span>apteka-mosfarma.ru</span> <span>apteka-mosfarma.ru</span>
+            <span>apteka-mosfarma.ru</span> <span>apteka-mosfarma.ru</span> </span
+          ><span class="running-line__collection running-line__collection--2"
+            ><span>apteka-mosfarma.ru</span> <span>apteka-mosfarma.ru</span> <span>apteka-mosfarma.ru</span>
+            <span>apteka-mosfarma.ru</span> <span>apteka-mosfarma.ru</span></span
+          >
+        </div>
+      </div>
+    </section>
+    <section class="pharmacy-contacts bg-green">
+      <div class="pharmacy-contacts__container container container--big">
+        <div class="pharmacy-contacts__row map">
+          <div class="map__left">
+            <h4 class="map__title slice-text typography-h4">Как добраться до аптеки МосФарма</h4>
+            <p class="map__address slideup-text">125239, Москва<br />Фармацевтический проезд, д. 1</p>
+            <a href="#" class="map__button button"
+              ><span class="button__text-container"><span class="button__text">Открыть в Яндекс.Картах</span></span></a
+            >
+          </div>
+          <div class="map__frame-container">
+            <img class="map__image" src="img/out-pharmacy-page/map.jpg" width="570" height="340" alt="" />
+          </div>
+        </div>
+        <div class="pharmacy-contacts__row directory-entry">
+          <div class="directory-entry__left">
+            <h4 class="directory-entry__title typography-h4 slice-text">Режим работы</h4>
+          </div>
+          <table class="directory-entry__table slideup-text">
+            <tbody>
+              <tr class="directory-entry__data">
+                <th class="directory-entry__mark">Пн.-пт.:</th>
+                <td class="directory-entry__value">8:00 - 20:00</td>
+              </tr>
+              <tr class="directory-entry__data">
+                <th class="directory-entry__mark">сб., вс.:</th>
+                <td class="directory-entry__value">10:00 - 18:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pharmacy-contacts__row directory-entry">
+          <div class="directory-entry__left">
+            <h4 class="directory-entry__title typography-h4 slice-text">Связаться с<br />аптекой МосФарма</h4>
+          </div>
+          <table class="directory-entry__table slideup-text">
+            <tbody>
+              <tr class="directory-entry__data">
+                <th class="directory-entry__mark">телефоны:</th>
+                <td class="directory-entry__value">
+                  <a href="tel:+74991508851">+7 (499) 150-88-51</a>
+                  <span class="directory-entry__note">(гомеопатический отдел)</span><br /><a href="tel:+74991504465"
+                    >+7 (499) 150-44-65</a
+                  >
+                </td>
+              </tr>
+              <tr class="directory-entry__data">
+                <th class="directory-entry__mark">e-mail:</th>
+                <td class="directory-entry__value">
+                  <a href="mailto:info@apteka-mosfarma.ru">info@apteka-mosfarma.ru</a>
+                </td>
+              </tr>
+              <tr class="directory-entry__data">
+                <th class="directory-entry__mark">сайт:</th>
+                <td class="directory-entry__value"><a href="apteka-mosfarma.ru">apteka-mosfarma.ru</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__container container container--big">
+        <nav class="footer__top">
+          <img
+            class="footer__logo logo logo__image"
+            src="img/logo-light-green.svg"
+            width="121"
+            height="25"
+            alt="Логотип МосФарма"
+          />
+          <ul class="footer__menu footer-menu">
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">О компании</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Продукция</a></li>
+            <li class="footer-menu__item">
+              <a href="./contract-production.html" class="footer-menu__link">Контрактное производство</a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="./our-pharmacy.html" class="footer-menu__link">Аптека МосФарма</a>
+            </li>
+            <li class="footer-menu__item"><a href="./contacts.html" class="footer-menu__link">Контакты</a></li>
+            <li class="footer-menu__item"><a href="./inspection.html" class="footer-menu__link">Фармаконадзор</a></li>
+          </ul>
+        </nav>
+        <div class="footer__middle">
+          <div class="footer__column footer__column--feedback">
+            <p class="footer__column-title typography-h5 slice-text">Есть, что обсудить?<br />Напишите нам</p>
+            <a href="mailto:info@mosfarma.ru" class="footer__email button button--big button--lowercase"
+              ><span class="button__text-container"><span class="button__text">info@mosfarma.ru</span></span></a
+            >
+          </div>
+          <div class="footer__column">
+            <p class="footer__column-title typography-h5 slice-text">Адрес</p>
+            <p class="footer__address slideup-text">125239, Москва<br />Фармацевтический проезд, д. 1</p>
+            <a href="#" class="link link--light-green"
+              ><span class="link__text-container"><span class="link__text">на карте </span></span
+              ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+            ></a>
+          </div>
+          <div class="footer__column footer__column--report">
+            <p class="footer__column-title footer__column-title--report typography-h5 slice-text">Сообщить</p>
+            <p class="footer__note slideup-text">
+              Сообщить о случае возникновения нежелательных явлений, связанных с применением лекарственного препарата,
+              можно заполнив форму обращения в службу фармаконадзора
+            </p>
+            <a href="#" class="link link--light-green"
+              ><span class="link__text-container"><span class="link__text">сообщить </span></span
+              ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+            ></a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">© <span class="js-year">2020</span></p>
+          <a href="#" class="footer__privacy-policy">Политика конфиденциальности</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

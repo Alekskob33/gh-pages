@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Мосфарма | Система качества</title>
+    <script defer="defer" src="js/bundle.js"></script>
+    <link href="css/style.bundle.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__container container container--big">
+        <div class="header__logo logo">
+          <img class="logo__image logo__image--white" src="img/logo-white.svg" width="165" height="35" />
+          <img class="logo__image logo__image--green" src="img/logo-green.svg" width="165" height="35" />
+        </div>
+        <nav class="header__menu main-menu main-menu--white">
+          <ul class="main-menu__list">
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link">О компании</a>
+              <ul class="main-menu__sublist">
+                <li class="main-menu__sublist-item">
+                  <a href="./history.html" class="main-menu__sublist-link">история</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./production.html" class="main-menu__sublist-link">производство</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./quality-system.html" class="main-menu__sublist-link">система качества</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./career.html" class="main-menu__sublist-link">карьера</a>
+                </li>
+              </ul>
+            </li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Продукция</a></li>
+            <li class="main-menu__item">
+              <a href="./contract-production.html" class="main-menu__link">Контрактное производство</a>
+            </li>
+            <li class="main-menu__item"><a href="./our-pharmacy.html" class="main-menu__link">Аптека</a></li>
+            <li class="main-menu__item"><a href="./contacts.html" class="main-menu__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <button class="header__search-button search-button search-toggle">
+          <svg class="search-button__icon" width="27" height="28">
+            <use xlink:href="img/sprite.svg#magnifier"></use>
+          </svg>
+        </button>
+        <button class="header__lang-switcher lang-switcher">EN</button>
+        <button class="header__burger burger" id="toggle-big-menu">
+          <svg class="burger__icon burger__icon--open" width="38" height="12">
+            <use xlink:href="img/sprite.svg#burger"></use>
+          </svg>
+          <svg class="burger__icon burger__icon--close" width="27" height="28">
+            <use xlink:href="img/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <div class="section big-menu" id="big-menu">
+      <div class="big-menu__container container container--big">
+        <div class="big-menu__left">
+          <p class="big-menu-callback__paragraph">Есть, что обсудить?<br />Напишите нам.</p>
+          <a class="big-menu-callback__link" href="mailto:info@mosfarma.ru">info@mosfarma.ru</a>
+        </div>
+        <ul class="big-menu__list">
+          <li class="big-menu__item">
+            <a href="./home.html" class="big-menu__link"
+              ><span class="big-menu__number">01</span> <span class="big-menu__label">Главная</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <span class="big-menu__link"
+              ><span class="big-menu__number">02</span> <span class="big-menu__label">О компании</span></span
+            >
+            <div class="big-menu__sublist-container">
+              <ul class="big-menu__sublist">
+                <li class="big-menu__sublist-item">
+                  <a href="./history.html" class="big-menu__link big-menu__sublist-link">история</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="#" class="big-menu__link big-menu__sublist-link">производство</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="./quality-system" class="big-menu__link big-menu__sublist-link">система качества</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="./career.html" class="big-menu__link big-menu__sublist-link">карьера</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="big-menu__item">
+            <a href="#" class="big-menu__link"
+              ><span class="big-menu__number">03</span> <span class="big-menu__label">Продукция</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./contract-production.html" class="big-menu__link"
+              ><span class="big-menu__number">04</span> <span class="big-menu__label">Контрактное производство</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./our-pharmacy.html" class="big-menu__link"
+              ><span class="big-menu__number">05</span> <span class="big-menu__label">Аптека МосФарма</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./contacts.html" class="big-menu__link"
+              ><span class="big-menu__number">06</span> <span class="big-menu__label">Контакты</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./inspection.html" class="big-menu__link"
+              ><span class="big-menu__number">07</span> <span class="big-menu__label">Фармаконадзор</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <footer class="big-menu__footer footer">
+        <div class="footer__container container container--big">
+          <div class="footer__middle">
+            <div class="footer__column">
+              <p class="footer__column-title typography-h5 slice-text">Адрес</p>
+              <p class="footer__address slideup-text">125239, Москва<br />Фармацевтический проезд, д. 1</p>
+              <a href="#" class="link link--light-green"
+                ><span class="link__text-container"><span class="link__text">на карте </span></span
+                ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+              ></a>
+            </div>
+            <div class="footer__column footer__column--report">
+              <p class="footer__column-title footer__column-title--report typography-h5 slice-text">Сообщить</p>
+              <p class="footer__note slideup-text">
+                Сообщить о случае возникновения нежелательных явлений, связанных с применением лекарственного препарата,
+                можно заполнив форму обращения в службу фармаконадзора
+              </p>
+              <a href="#" class="link link--light-green"
+                ><span class="link__text-container"><span class="link__text">сообщить </span></span
+                ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+              ></a>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <p class="footer__copyright">© <span class="js-year"></span> 2022</p>
+            <a href="#" class="footer__privacy-policy">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="section search">
+      <div class="search__container container">
+        <div class="search" id="search">
+          <form class="search__top">
+            <input class="search__input" placeholder="Поиск" />
+            <button type="submit" class="search__submit">
+              <svg class="search__submit-icon" width="37" height="38">
+                <use xlink:href="img/sprite.svg#magnifier"></use>
+              </svg>
+              <span class="visually-hidden">Искать</span>
+            </button>
+            <button type="button" class="search__close search-toggle">
+              <svg class="search__close-icon" width="25" height="25"><use xlink:href="img/sprite.svg#close"></use></svg>
+              <span class="visually-hidden">Закрыть поиск</span>
+            </button>
+          </form>
+          <button class="search__clean clean">
+            <svg class="clean__icon" width="21" height="22"><use xlink:href="img/sprite.svg#close"></use></svg>
+            <span>Очистить</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.querySelector("#header").classList.add("header--inner", "inner");
+    </script>
+    <div class="inner-first quality-system-first" id="first">
+      <div class="quality-system-first__container container">
+        <h1 class="quality-system-first__title typography-h1 slice-text">Система качества</h1>
+        <div class="quality-system-first__labels">
+          <p class="quality-system-first__label quality-system-first__label--left">ISO</p>
+          <p class="quality-system-first__label quality-system-first__label--right">GMP</p>
+        </div>
+      </div>
+      <div
+        class="quality-system-first__cursor follow-hole"
+        style="background-image: url('img/quality-system-page/first-bg.jpg')"
+      ></div>
+      <a href="#second" class="inner-first__scroll-down scroll-down-button"
+        ><span class="visually-hidden">Следующий экран</span>
+        <svg class="scroll-down-button__icon" width="23" height="37">
+          <use xlink:href="img/sprite.svg#arrow-scroll-down"></use></svg
+      ></a>
+    </div>
+    <div id="second" class="bg-grey">
+      <section class="section slide">
+        <div class="slide__container container">
+          <div class="slide__text-container">
+            <h2 class="slide__title typography-h4 slice-text">
+              Система менеджмента качества (СМК) - часть системы менеджмента компании МосФарма
+            </h2>
+            <div class="slide__paragraphs-container">
+              <div class="slide__paragraphs slideup-text">
+                <div class="slide__paragraphs typography-paragraphs">
+                  <p>
+                    СМК призвана обеспечивать стабильный уровень качества продукции, процессов производства и
+                    деятельности предприятия для удовлетворения потребностей и требований потребителей и других
+                    заинтересованных сторон.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide__image-container zoom-image">
+            <a data-fslightbox="gallery-1" href="img/quality-system-page/second-block.jpg"
+              ><img
+                class="slide__image zoom-image__image"
+                src="img/quality-system-page/second-block.jpg"
+                width="454"
+                height="390"
+            /></a>
+          </div>
+        </div>
+        <section class="quality-system-files">
+          <div class="quality-system-files__container container">
+            <div class="folded">
+              <div class="folded__head">
+                <span class="folded__number slice-text">01</span>
+                <p class="folded__title">Заявление о политике в области качества</p>
+                <svg class="folded__arrow-icon" width="28" height="15">
+                  <use xlink:href="img/sprite.svg#accordion-arrow"></use>
+                </svg>
+              </div>
+              <div class="folded__body">
+                <div class="folded__inner">
+                  <p>
+                    <span class="text-green">Заявление о политике в области качества</span>
+                    <a href="#" class="link link--green"
+                      ><span class="link__text-container"><span class="link__text">открыть </span></span
+                      ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+                    ></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="folded">
+              <div class="folded__head">
+                <span class="folded__number slice-text">02</span>
+                <p class="folded__title">Сертификация СМК</p>
+                <svg class="folded__arrow-icon" width="28" height="15">
+                  <use xlink:href="img/sprite.svg#accordion-arrow"></use>
+                </svg>
+              </div>
+              <div class="folded__body">
+                <div class="folded__inner">
+                  <p>
+                    Система менеджмента качества ЗАО "Московская фармацевтическая фабрика" сертифицирована на
+                    соответствие ГОСТ Р ИСО 9001-2015 (ISO 9001:2015).
+                  </p>
+                  <p>
+                    <span class="text-green">Сертификат соответствия, рег.N RUSEXP-RU-000159 от 18.06.2021 г.</span>
+                    <a href="#" class="link link--green"
+                      ><span class="link__text-container"><span class="link__text">открыть </span></span
+                      ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+                    ></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+    <section class="quality-system__slide-pharma slide">
+      <div class="slide__container container">
+        <div class="slide__text-container">
+          <h2 class="slide__title typography-h4 slice-text">Фармацевтическая система качества (ФСК)</h2>
+          <div class="slide__paragraphs-container">
+            <div class="slide__paragraphs slideup-text">
+              <div class="slide__paragraphs typography-paragraphs">
+                <p>
+                  Фармацевтическая система качества (ФСК) – интегрирована в общую систему менеджмента качества
+                  предприятия и охватывает все подразделения предприятия, чья деятельность может оказать влияние на
+                  безопасность и качество продукции. Фармацевтическая система качества МосФарма разработана в
+                  соответствии с требованиями Надлежащих производственных практик (GМP), межгосударственных и
+                  международных регламентирующих документов (документов Евразийского экономического союза (ЕАЭС),
+                  документов ВОЗ, ICH и других).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide__image-container zoom-image">
+          <a data-fslightbox="gallery-2" href="img/quality-system-page/third-block.jpg"
+            ><img
+              class="slide__image zoom-image__image"
+              src="img/quality-system-page/third-block.jpg"
+              width="454"
+              height="530"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <section class="quality-system__slide-text slide">
+      <div class="slide__container container">
+        <div class="slide__image-container zoom-image">
+          <a data-fslightbox="gallery-3" href="img/quality-system-page/fourth-block.jpg"
+            ><img
+              class="slide__image zoom-image__image"
+              src="img/quality-system-page/fourth-block.jpg"
+              width="454"
+              height="530"
+          /></a>
+        </div>
+        <div class="slide__text-container">
+          <div class="slide__paragraphs-container">
+            <div class="slide__paragraphs slideup-text">
+              <div class="slide__paragraphs typography-paragraphs">
+                <p>
+                  Структура ФСК МосФарма основана на модели ICH Q10 «Фармацевтическая система качества», которая
+                  базируется на концепциях Международной Организации по стандартизации (ISO), включает требования
+                  надлежащей производственной практики (GMP) и дополняет руководящие указания ICH Q8 "Фармацевтическая
+                  разработка" и ICH Q9 "Управление рисками для качества".
+                </p>
+                <p>
+                  Функционирование ФСК направлено на обеспечение постоянного поддержания требуемого качества
+                  лекарственных препаратов, достижение необходимой эффективности процессов за счет постоянного
+                  мониторинга процессов и качества продукции, управления корректирующими и предупреждающими действиями
+                  (CAPA-система) .
+                </p>
+                <button class="link link--green modal-button" data-modal="text">
+                  <span class="link__text-container"><span class="link__text">показать весь текст </span></span
+                  ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="banner production-banner">
+      <div class="banner__container container">
+        <div class="banner__top production-banner__top">
+          <div class="banner__text">
+            <p class="banner__paragraph typography-h5 slice-text">
+              По вопросам безопасности лекарственных препаратов ФСК взаимодействует с системой фармаконадзора
+            </p>
+            <a href="#" class="button"
+              ><span class="button__text-container"><span class="button__text">подробно </span></span
+              ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+            ></a>
+          </div>
+          <img
+            class="banner__circle-text rotating-circle"
+            src="img/quality-system-page/circle-mask.svg"
+            width="178"
+            height="177"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="banner__image-container">
+        <img class="banner__image" src="img/quality-system-page/bottom-banner.jpg" width="1280" height="520" alt="" />
+      </div>
+    </section>
+    <div class="modal" id="text">
+      <div class="modal__overlay"></div>
+      <div class="modal__content">
+        <div class="modal__container">
+          <div class="modal__inner typography-paragraphs">
+            <p>
+              Структура ФСК МосФарма основана на модели ICH Q10 «Фармацевтическая система качества», которая базируется
+              на концепциях Международной Организации по стандартизации (ISO), включает требования надлежащей
+              производственной практики (GMP) и дополняет руководящие указания ICH Q8 "Фармацевтическая разработка" и
+              ICH Q9 "Управление рисками для качества".
+            </p>
+            <p>
+              Функционирование ФСК направлено на обеспечение постоянного поддержания требуемого качества лекарственных
+              препаратов, достижение необходимой эффективности процессов за счет постоянного мониторинга процессов и
+              качества продукции, управления корректирующими и предупреждающими действиями (CAPA-система), управления
+              изменениями, сохранения и передачи знаний, принятия решений на основании оценки рисков, а так же
+              постоянного улучшения. Высшее руководство МосФарма определяет политику и цели в области качества, выделяет
+              ресурсы для достижения поставленных целей и проводит анализ результатов деятельности Фармацевтической
+              системы качества.
+            </p>
+            <p>
+              Соответствие ЗАО "Московская фармацевтическая фабрика" требованиям Правил надлежащей производственной
+              практики (GMP) подтверждено в рамках лицензионной проверки Минпромторга РФ (Заключение о соответствии
+              производителя (иностранного производителя) лекарственных средств для медицинского применения требованиям
+              Правил надлежащей производственной практики NGMP-0118-000507/20).
+            </p>
+            <p>
+              В части ответственности производителя к хранению и транспортировке сырья, материалов и продукции,
+              предприятие руководствуется требованиями Правил надлежащей дистрибьюторской практики Евразийского
+              экономического союза (GDP) (утв. Решением Совета ЕЭК от 3 ноября 2016 г. N80) и Правил надлежащей практики
+              хранения и перевозки лекарственных препаратов для медицинского применения (GSP) (утв. Приказом МЗ РФ от
+              31.08.2016 N 646н).
+            </p>
+            <p>По вопросам безопасности лекарственных препаратов ФСК взаимодействует с Системой фармаконадзора.</p>
+          </div>
+          <button class="modal__close">
+            <svg class="modal__close-icon" width="27" height="28"><use xlink:href="img/sprite.svg#close"></use></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <a href="#first" class="scroll-up-button" id="scroll-up"
+      ><span class="visually-hidden">Наверх</span>
+      <svg class="scroll-up-button__icon" width="23" height="37">
+        <use xlink:href="img/sprite.svg#arrow-scroll-down"></use></svg
+    ></a>
+    <footer class="footer">
+      <div class="footer__container container container--big">
+        <nav class="footer__top">
+          <img
+            class="footer__logo logo logo__image"
+            src="img/logo-light-green.svg"
+            width="121"
+            height="25"
+            alt="Логотип МосФарма"
+          />
+          <ul class="footer__menu footer-menu">
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">О компании</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Продукция</a></li>
+            <li class="footer-menu__item">
+              <a href="./contract-production.html" class="footer-menu__link">Контрактное производство</a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="./our-pharmacy.html" class="footer-menu__link">Аптека МосФарма</a>
+            </li>
+            <li class="footer-menu__item"><a href="./contacts.html" class="footer-menu__link">Контакты</a></li>
+            <li class="footer-menu__item"><a href="./inspection.html" class="footer-menu__link">Фармаконадзор</a></li>
+          </ul>
+        </nav>
+        <div class="footer__middle">
+          <div class="footer__column footer__column--feedback">
+            <p class="footer__column-title typography-h5 slice-text">Есть, что обсудить?<br />Напишите нам</p>
+            <a href="mailto:info@mosfarma.ru" class="footer__email button button--big button--lowercase"
+              ><span class="button__text-container"><span class="button__text">info@mosfarma.ru</span></span></a
+            >
+          </div>
+          <div class="footer__column">
+            <p class="footer__column-title typography-h5 slice-text">Адрес</p>
+            <p class="footer__address slideup-text">125239, Москва<br />Фармацевтический проезд, д. 1</p>
+            <a href="#" class="link link--light-green"
+              ><span class="link__text-container"><span class="link__text">на карте </span></span
+              ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+            ></a>
+          </div>
+          <div class="footer__column footer__column--report">
+            <p class="footer__column-title footer__column-title--report typography-h5 slice-text">Сообщить</p>
+            <p class="footer__note slideup-text">
+              Сообщить о случае возникновения нежелательных явлений, связанных с применением лекарственного препарата,
+              можно заполнив форму обращения в службу фармаконадзора
+            </p>
+            <a href="#" class="link link--light-green"
+              ><span class="link__text-container"><span class="link__text">сообщить </span></span
+              ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+            ></a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">© <span class="js-year">2020</span></p>
+          <a href="#" class="footer__privacy-policy">Политика конфиденциальности</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

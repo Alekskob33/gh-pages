@@ -1,0 +1,63 @@
+<svg display="none" xmlns="http://www.w3.org/2000/svg">
+
+    <symbol id="magnifier" viewBox="0 0 28 28" fill="none">
+        <line x1="19.9831" y1="20.9713" x2="26.5279" y2="27.4591" stroke-width="1.5" fill="none"/>
+        <circle cx="12.2875" cy="12.2875" r="11.5375" stroke-width="1.5" fill="none"/>
+    </symbol>
+
+    <symbol id="burger" viewBox="0 0 38 12">
+        <line y1="1.25" x2="38" y2="1.25" stroke-width="1.5"/>
+        <line y1="11.25" x2="38" y2="11.25" stroke-width="1.5"/>
+    </symbol>
+
+    <symbol id="close" viewBox="0 0 27 28" fill="none">
+        <line x1="3.46967" y1="23.4697" x2="21.1473" y2="5.792" stroke-width="1.5"/>
+        <line x1="21.4697" y1="23.5303" x2="3.792" y2="5.85266" stroke-width="1.5"/>
+    </symbol>
+
+    <symbol id="arrow" viewBox="0 0 18 12" fill="none">
+        <line y1="5.84314" x2="16" y2="5.84314"/>
+        <line x1="11.3033" y1="11.3033" x2="16.9602" y2="5.64645"/>
+        <line x1="16.9602" y1="6.35355" x2="11.3033" y2="0.696699"/>
+    </symbol>
+
+    <symbol id="arrow-scroll-down" viewBox="0 0 23 37" fill="none">
+        <line y1="-0.65" x2="34.7107" y2="-0.65" transform="matrix(0 1 -1 3.67599e-06 10.9669 0.198334)"
+              stroke-width="1.3"/>
+        <line y1="-0.65" x2="15.1023" y2="-0.65"
+              transform="matrix(0.709934 0.704268 -0.704264 0.709938 0.766235 25.8486)"
+              stroke-width="1.3"/>
+        <line x1="10.9855" y1="36.0677" x2="21.6643" y2="25.3889" stroke-width="1.3"/>
+    </symbol>
+
+    <symbol id="dropdown-arrow" viewBox="0 0 27 28" fill="none">
+        <line x1="6.35355" y1="9.71749" x2="13.4246" y2="16.7886" stroke="#7FBF9E"/>
+        <line x1="12.6464" y1="16.7175" x2="19.7175" y2="9.64642" stroke="#7FBF9E"/>
+    </symbol>
+
+    <symbol id="accordion-arrow" viewBox="0 0 28 15" fill="none">
+        <line y1="-0.65" x2="22.0444" y2="-0.65" transform="matrix(1 0 2.33458e-06 1 4.77679 7.64832)" stroke="black"
+              stroke-width="1.3"/>
+        <line y1="-0.65" x2="9.59129" y2="-0.65" transform="matrix(0.704269 -0.709934 0.709938 0.704264 21.067 14.1267)"
+              stroke="black" stroke-width="1.3"/>
+        <line x1="27.3893" y1="7.80422" x2="20.6073" y2="1.02221" stroke="black" stroke-width="1.3"/>
+    </symbol>
+
+    <symbol id="pagination-arrow" viewBox="0 0 35 18" fill="none">
+        <line y1="-0.565" x2="27.7686" y2="-0.565" transform="matrix(1 0 2.94079e-06 1 4.95868 9.82654)" stroke="#41776B" stroke-width="1.13"/>
+        <line y1="-0.565" x2="12.0818" y2="-0.565" transform="matrix(0.704268 -0.709934 0.709938 0.704264 25.4789 17.9871)" stroke="#41776B" stroke-width="1.13"/>
+        <line x1="33.6224" y1="9.84349" x2="25.0793" y2="1.30042" stroke="#41776B" stroke-width="1.13"/>
+    </symbol>
+
+
+    <symbol id="player-play" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14 8L0.5 15.7942L0.5 0.205771L14 8Z" fill="white"/>
+    </symbol>
+
+    <symbol id="player-stop" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="1" y1="1" x2="1" y2="13" stroke="white" stroke-width="2" stroke-linecap="round"/>
+        <line x1="8" y1="1" x2="8" y2="13" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+
+
+</svg>

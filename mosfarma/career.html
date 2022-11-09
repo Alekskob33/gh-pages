@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Мосфарма | Карьера</title>
+    <script defer="defer" src="js/bundle.js"></script>
+    <link href="css/style.bundle.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__container container container--big">
+        <div class="header__logo logo">
+          <img class="logo__image logo__image--white" src="img/logo-white.svg" width="165" height="35" />
+          <img class="logo__image logo__image--green" src="img/logo-green.svg" width="165" height="35" />
+        </div>
+        <nav class="header__menu main-menu main-menu--white">
+          <ul class="main-menu__list">
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link">О компании</a>
+              <ul class="main-menu__sublist">
+                <li class="main-menu__sublist-item">
+                  <a href="./history.html" class="main-menu__sublist-link">история</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./production.html" class="main-menu__sublist-link">производство</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./quality-system.html" class="main-menu__sublist-link">система качества</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./career.html" class="main-menu__sublist-link">карьера</a>
+                </li>
+              </ul>
+            </li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Продукция</a></li>
+            <li class="main-menu__item">
+              <a href="./contract-production.html" class="main-menu__link">Контрактное производство</a>
+            </li>
+            <li class="main-menu__item"><a href="./our-pharmacy.html" class="main-menu__link">Аптека</a></li>
+            <li class="main-menu__item"><a href="./contacts.html" class="main-menu__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <button class="header__search-button search-button search-toggle">
+          <svg class="search-button__icon" width="27" height="28">
+            <use xlink:href="img/sprite.svg#magnifier"></use>
+          </svg>
+        </button>
+        <button class="header__lang-switcher lang-switcher">EN</button>
+        <button class="header__burger burger" id="toggle-big-menu">
+          <svg class="burger__icon burger__icon--open" width="38" height="12">
+            <use xlink:href="img/sprite.svg#burger"></use>
+          </svg>
+          <svg class="burger__icon burger__icon--close" width="27" height="28">
+            <use xlink:href="img/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <div class="section big-menu" id="big-menu">
+      <div class="big-menu__container container container--big">
+        <div class="big-menu__left">
+          <p class="big-menu-callback__paragraph">Есть, что обсудить?<br />Напишите нам.</p>
+          <a class="big-menu-callback__link" href="mailto:info@mosfarma.ru">info@mosfarma.ru</a>
+        </div>
+        <ul class="big-menu__list">
+          <li class="big-menu__item">
+            <a href="./home.html" class="big-menu__link"
+              ><span class="big-menu__number">01</span> <span class="big-menu__label">Главная</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <span class="big-menu__link"
+              ><span class="big-menu__number">02</span> <span class="big-menu__label">О компании</span></span
+            >
+            <div class="big-menu__sublist-container">
+              <ul class="big-menu__sublist">
+                <li class="big-menu__sublist-item">
+                  <a href="./history.html" class="big-menu__link big-menu__sublist-link">история</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="#" class="big-menu__link big-menu__sublist-link">производство</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="./quality-system" class="big-menu__link big-menu__sublist-link">система качества</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="./career.html" class="big-menu__link big-menu__sublist-link">карьера</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="big-menu__item">
+            <a href="#" class="big-menu__link"
+              ><span class="big-menu__number">03</span> <span class="big-menu__label">Продукция</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./contract-production.html" class="big-menu__link"
+              ><span class="big-menu__number">04</span> <span class="big-menu__label">Контрактное производство</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./our-pharmacy.html" class="big-menu__link"
+              ><span class="big-menu__number">05</span> <span class="big-menu__label">Аптека МосФарма</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./contacts.html" class="big-menu__link"
+              ><span class="big-menu__number">06</span> <span class="big-menu__label">Контакты</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./inspection.html" class="big-menu__link"
+              ><span class="big-menu__number">07</span> <span class="big-menu__label">Фармаконадзор</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <footer class="big-menu__footer footer">
+        <div class="footer__container container container--big">
+          <div class="footer__middle">
+            <div class="footer__column">
+              <p class="footer__column-title typography-h5 slice-text">Адрес</p>
+              <p class="footer__address slideup-text">125239, Москва<br />Фармацевтический проезд, д. 1</p>
+              <a href="#" class="link link--light-green"
+                ><span class="link__text-container"><span class="link__text">на карте </span></span
+                ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+              ></a>
+            </div>
+            <div class="footer__column footer__column--report">
+              <p class="footer__column-title footer__column-title--report typography-h5 slice-text">Сообщить</p>
+              <p class="footer__note slideup-text">
+                Сообщить о случае возникновения нежелательных явлений, связанных с применением лекарственного препарата,
+                можно заполнив форму обращения в службу фармаконадзора
+              </p>
+              <a href="#" class="link link--light-green"
+                ><span class="link__text-container"><span class="link__text">сообщить </span></span
+                ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+              ></a>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <p class="footer__copyright">© <span class="js-year"></span> 2022</p>
+            <a href="#" class="footer__privacy-policy">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="section search">
+      <div class="search__container container">
+        <div class="search" id="search">
+          <form class="search__top">
+            <input class="search__input" placeholder="Поиск" />
+            <button type="submit" class="search__submit">
+              <svg class="search__submit-icon" width="37" height="38">
+                <use xlink:href="img/sprite.svg#magnifier"></use>
+              </svg>
+              <span class="visually-hidden">Искать</span>
+            </button>
+            <button type="button" class="search__close search-toggle">
+              <svg class="search__close-icon" width="25" height="25"><use xlink:href="img/sprite.svg#close"></use></svg>
+              <span class="visually-hidden">Закрыть поиск</span>
+            </button>
+          </form>
+          <button class="search__clean clean">
+            <svg class="clean__icon" width="21" height="22"><use xlink:href="img/sprite.svg#close"></use></svg>
+            <span>Очистить</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.querySelector("#header").classList.add("header--inner", "inner");
+    </script>
+    <div class="inner-first career-first">
+      <div class="career-first__container container">
+        <div class="career-first__left">
+          <h1 class="career-first__title typography-h1 slice-text">Карьера</h1>
+          <div class="career-first__subtitle typography-paragraphs slideup-text">
+            <p>Мы нацелены на профессиональный рост, как всей команды так и каждого сотрудника.</p>
+            <p>Присоединяйся!</p>
+          </div>
+        </div>
+        <div class="career-first__right">
+          <p class="career-first__right-title slice-text">отдел персонала</p>
+          <a href="mailto:kadry@mosfarma.ru" class="career-first__right-link">kadry@mosfarma.ru</a>
+        </div>
+        <a href="#second" class="inner-first__scroll-down career-first__down-button scroll-down-button"
+          ><span class="visually-hidden">Следующий экран</span>
+          <svg class="scroll-down-button__icon" width="23" height="37">
+            <use xlink:href="img/sprite.svg#arrow-scroll-down"></use></svg
+        ></a>
+      </div>
+      <div class="career-first__image career-banner">
+        <img class="career-banner__image" src="img/career-page/career.jpg" width="1280" height="500" alt="" />
+      </div>
+    </div>
+    <section id="second" class="career-why">
+      <div class="career-why__container container">
+        <h2 class="career-why__title typography-h4 slice-text">Работа в МосФарма — это</h2>
+        <div class="career-why__row">
+          <div class="career-why__column">
+            <div class="career-why__item slice-text">Профессиональный рост<br />в дружном коллективе</div>
+            <div class="career-why__item slice-text">Наставничество для<br />новых сотрудников</div>
+          </div>
+          <div class="career-why__column">
+            <div class="career-why__item slice-text">Конкурентная<br />заработная плата</div>
+            <div class="career-why__item slice-text">Обучение<br />и развитие</div>
+          </div>
+          <div class="career-why__column">
+            <div class="career-why__item slice-text">Социальный<br />пакет</div>
+            <div class="career-why__item slice-text">Корпоративные<br />мероприятия</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="vacancies">
+      <div class="vacancies__container container">
+        <h2 class="vacancies__title typography-h4 slice-text">
+          Открытые вакансии <span class="vacancies__count">5</span>
+        </h2>
+        <ul class="vacancies__list">
+          <li class="vacancies__item accordion">
+            <div class="accordion__head">
+              <span class="accordion__number">01</span>
+              <p class="accordion__title">Технолог производства</p>
+              <svg class="accordion__head-icon" width="28" height="15">
+                <use xlink:href="img/sprite.svg#accordion-arrow"></use>
+              </svg>
+            </div>
+            <div class="accordion__body">
+              <div class="accordion__inner">
+                <h4>Обязанности:</h4>
+                <ul>
+                  <li>
+                    Сбор регистрационного досье по лекарственным средствам в соответствии с установленными требованиями;
+                  </li>
+                  <li>Общение с партнерами на английском языке (преимущественно переписка);</li>
+                  <li>Перевод документов регистрационного досье на английский язык;</li>
+                  <li>
+                    Сбор и согласование необходимой документации, поступающей от структурных подразделений Компании.
+                  </li>
+                </ul>
+                <h4>Требования:</h4>
+                <ul>
+                  <li>Высшее образование;</li>
+                  <li>Знание английского языка - не ниже В1;</li>
+                  <li>
+                    Опыт ведения документооборота, взаимодействия с контролирующими и разрешительными государственными
+                    структурами;
+                  </li>
+                  <li>Опыт перевода документации на английский язык;</li>
+                  <li>Уверенный пользователь ПК.</li>
+                </ul>
+                <button
+                  class="vacancies__button button modal-button"
+                  data-modal="request"
+                  data-vacancy="Технолог производства"
+                >
+                  <span class="button__text-container"><span class="button__text">отправить резюме </span></span
+                  ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="vacancies__item accordion">
+            <div class="accordion__head">
+              <span class="accordion__number">02</span>
+              <p class="accordion__title">Специалист по регистрации лекарственных средств</p>
+              <svg class="accordion__head-icon" width="28" height="15">
+                <use xlink:href="img/sprite.svg#accordion-arrow"></use>
+              </svg>
+            </div>
+            <div class="accordion__body">
+              <div class="accordion__inner">
+                <h4>Обязанности:</h4>
+                <ul>
+                  <li>
+                    Сбор регистрационного досье по лекарственным средствам в соответствии с установленными требованиями;
+                  </li>
+                  <li>Общение с партнерами на английском языке (преимущественно переписка);</li>
+                  <li>Перевод документов регистрационного досье на английский язык;</li>
+                  <li>
+                    Сбор и согласование необходимой документации, поступающей от структурных подразделений Компании.
+                  </li>
+                </ul>
+                <h4>Требования:</h4>
+                <ul>
+                  <li>Высшее образование;</li>
+                  <li>Знание английского языка - не ниже В1;</li>
+                  <li>
+                    Опыт ведения документооборота, взаимодействия с контролирующими и разрешительными государственными
+                    структурами;
+                  </li>
+                  <li>Опыт перевода документации на английский язык;</li>
+                  <li>Уверенный пользователь ПК.</li>
+                </ul>
+                <button
+                  class="vacancies__button button modal-button"
+                  data-modal="request"
+                  data-vacancy="Специалист по регистрации лекарственных средств"
+                >
+                  <span class="button__text-container"><span class="button__text">отправить резюме </span></span
+                  ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="vacancies__item accordion">
+            <div class="accordion__head">
+              <span class="accordion__number">03</span>
+              <p class="accordion__title">Микробиолог</p>
+              <svg class="accordion__head-icon" width="28" height="15">
+                <use xlink:href="img/sprite.svg#accordion-arrow"></use>
+              </svg>
+            </div>
+            <div class="accordion__body">
+              <div class="accordion__inner">
+                <h4>Обязанности:</h4>
+                <ul>
+                  <li>
+                    Сбор регистрационного досье по лекарственным средствам в соответствии с установленными требованиями;
+                  </li>
+                  <li>Общение с партнерами на английском языке (преимущественно переписка);</li>
+                  <li>Перевод документов регистрационного досье на английский язык;</li>
+                  <li>
+                    Сбор и согласование необходимой документации, поступающей от структурных подразделений Компании.
+                  </li>
+                </ul>
+                <h4>Требования:</h4>
+                <ul>
+                  <li>Высшее образование;</li>
+                  <li>Знание английского языка - не ниже В1;</li>
+                  <li>
+                    Опыт ведения документооборота, взаимодействия с контролирующими и разрешительными государственными
+                    структурами;
+                  </li>
+                  <li>Опыт перевода документации на английский язык;</li>
+                  <li>Уверенный пользователь ПК.</li>
+                </ul>
+                <button class="vacancies__button button modal-button" data-modal="request" data-vacancy="Микробиолог">
+                  <span class="button__text-container"><span class="button__text">отправить резюме </span></span
+                  ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="vacancies__item accordion">
+            <div class="accordion__head">
+              <span class="accordion__number">04</span>
+              <p class="accordion__title">Химик</p>
+              <svg class="accordion__head-icon" width="28" height="15">
+                <use xlink:href="img/sprite.svg#accordion-arrow"></use>
+              </svg>
+            </div>
+            <div class="accordion__body">
+              <div class="accordion__inner">
+                <h4>Обязанности:</h4>
+                <ul>
+                  <li>
+                    Сбор регистрационного досье по лекарственным средствам в соответствии с установленными требованиями;
+                  </li>
+                  <li>Общение с партнерами на английском языке (преимущественно переписка);</li>
+                  <li>Перевод документов регистрационного досье на английский язык;</li>
+                  <li>
+                    Сбор и согласование необходимой документации, поступающей от структурных подразделений Компании.
+                  </li>
+                </ul>
+                <h4>Требования:</h4>
+                <ul>
+                  <li>Высшее образование;</li>
+                  <li>Знание английского языка - не ниже В1;</li>
+                  <li>
+                    Опыт ведения документооборота, взаимодействия с контролирующими и разрешительными государственными
+                    структурами;
+                  </li>
+                  <li>Опыт перевода документации на английский язык;</li>
+                  <li>Уверенный пользователь ПК.</li>
+                </ul>
+                <button class="vacancies__button button modal-button" data-modal="request" data-vacancy="Химик">
+                  <span class="button__text-container"><span class="button__text">отправить резюме </span></span
+                  ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="vacancies__item accordion">
+            <div class="accordion__head">
+              <span class="accordion__number">05</span>
+              <p class="accordion__title">Начальник микробиологической лаборатории</p>
+              <svg class="accordion__head-icon" width="28" height="15">
+                <use xlink:href="img/sprite.svg#accordion-arrow"></use>
+              </svg>
+            </div>
+            <div class="accordion__body">
+              <div class="accordion__inner">
+                <h4>Обязанности:</h4>
+                <ul>
+                  <li>
+                    Сбор регистрационного досье по лекарственным средствам в соответствии с установленными требованиями;
+                  </li>
+                  <li>Общение с партнерами на английском языке (преимущественно переписка);</li>
+                  <li>Перевод документов регистрационного досье на английский язык;</li>
+                  <li>
+                    Сбор и согласование необходимой документации, поступающей от структурных подразделений Компании.
+                  </li>
+                </ul>
+                <h4>Требования:</h4>
+                <ul>
+                  <li>Высшее образование;</li>
+                  <li>Знание английского языка - не ниже В1;</li>
+                  <li>
+                    Опыт ведения документооборота, взаимодействия с контролирующими и разрешительными государственными
+                    структурами;
+                  </li>
+                  <li>Опыт перевода документации на английский язык;</li>
+                  <li>Уверенный пользователь ПК.</li>
+                </ul>
+                <button
+                  class="vacancies__button button modal-button"
+                  data-modal="request"
+                  data-vacancy="Начальник микробиологической лаборатории"
+                >
+                  <span class="button__text-container"><span class="button__text">отправить резюме </span></span
+                  ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg>
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="send-resume slide bg-grey">
+      <div class="slide__container container">
+        <div class="slide__text-container">
+          <h2 class="slide__title typography-h5 slice-text">Не нашли подходящей открытой вакансии?</h2>
+          <div class="slide__paragraphs typography-paragraphs slideup-text">
+            <p>Пришлите ваше резюме и мы внесем<br />вас в резервную базу специалистов.</p>
+          </div>
+          <button
+            class="slide__button button modal-button vacancies__button"
+            data-modal="request"
+            data-vacancy="резервная база специалистов"
+          >
+            <span class="button__text-container"><span class="button__text">отправить резюме </span></span
+            ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg>
+          </button>
+        </div>
+        <img
+          class="slide__circle rotating-circle"
+          src="img/career-page/circle-text.svg"
+          width="180"
+          height="180"
+          alt=""
+        />
+      </div>
+    </section>
+    <div class="modal" id="request">
+      <div class="modal__overlay"></div>
+      <div class="modal__content">
+        <div class="modal__container">
+          <div class="modal__inner modal-form">
+            <p class="modal-form__uptitle">Отклик на вакансию</p>
+            <h4 class="modal-form__title typography-h5 upperce" id="vacancy-name">
+              Специалист по регистрации лекарственных средств
+            </h4>
+            <p class="modal-form__subtitle">* - поля, обязательные для заполнения</p>
+            <div class="modal-form__input input">
+              <label class="input__label"
+                ><input class="input__field" placeholder=" " /> <span class="input__hint">ФИО*</span>
+                <span class="input__bottom-border"></span
+              ></label>
+            </div>
+            <div class="modal-form__input input">
+              <label class="input__label"
+                ><input class="input__field" type="tel" placeholder=" " />
+                <span class="input__hint">Контактный телефон*</span> <span class="input__bottom-border"></span
+              ></label>
+            </div>
+            <div class="modal-form__input input">
+              <label class="input__label"
+                ><input class="input__field" type="email" placeholder=" " /> <span class="input__hint">E-mail*</span>
+                <span class="input__bottom-border"></span
+              ></label>
+            </div>
+            <div class="modal-form__file-input file-input">
+              <p class="file-input__title">Прикрепить резюме</p>
+              <p class="file-input__rules">
+                Максимальное количество файлов - 4.<br />Максимальный размер файла - 10 МБ.<br />Допустимые расширения:
+                *.jpg, *.gif, *.png, *.doc, *.docx, *.xls, *.xlsx, *.pdf
+              </p>
+              <div class="drop-zone">
+                <p class="drop-zone__button">
+                  <span>загрузить файл</span>
+                  <svg
+                    class="drop-zone__button__icon"
+                    width="15"
+                    height="16"
+                    viewBox="0 0 15 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <line y1="8" x2="15" y2="8" />
+                    <line x1="7.5" y1="15.5" x2="7.5" y2="0.5" />
+                  </svg>
+                </p>
+                <span class="drop-zone__prompt">или перетащите сюда</span>
+                <input type="file" name="file" class="drop-zone__input" />
+              </div>
+            </div>
+            <div class="modal-form__approval checkbox checkbox--small">
+              <input type="checkbox" class="checkbox__field visually-hidden" name="approval" id="approval" />
+              <label class="checkbox__label" for="approval"
+                >Я ознакомился(лась) с <a href="policy.html">политикой оператора</a> в отношении обработки персональных
+                данных и даю <a href="policy.html">согласие</a> на обработку персональных данных.</label
+              >
+            </div>
+            <button class="modal-form__button button">
+              <span class="button__text-container"><span class="button__text">отправить резюме </span></span
+              ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg>
+            </button>
+          </div>
+          <button class="modal__close">
+            <svg class="modal__close-icon" width="27" height="28"><use xlink:href="img/sprite.svg#close"></use></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__container container container--big">
+        <nav class="footer__top">
+          <img
+            class="footer__logo logo logo__image"
+            src="img/logo-light-green.svg"
+            width="121"
+            height="25"
+            alt="Логотип МосФарма"
+          />
+          <ul class="footer__menu footer-menu">
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">О компании</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Продукция</a></li>
+            <li class="footer-menu__item">
+              <a href="./contract-production.html" class="footer-menu__link">Контрактное производство</a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="./our-pharmacy.html" class="footer-menu__link">Аптека МосФарма</a>
+            </li>
+            <li class="footer-menu__item"><a href="./contacts.html" class="footer-menu__link">Контакты</a></li>
+            <li class="footer-menu__item"><a href="./inspection.html" class="footer-menu__link">Фармаконадзор</a></li>
+          </ul>
+        </nav>
+        <div class="footer__middle">
+          <div class="footer__column footer__column--feedback">
+            <p class="footer__column-title typography-h5 slice-text">Есть, что обсудить?<br />Напишите нам</p>
+            <a href="mailto:info@mosfarma.ru" class="footer__email button button--big button--lowercase"
+              ><span class="button__text-container"><span class="button__text">info@mosfarma.ru</span></span></a
+            >
+          </div>
+          <div class="footer__column">
+            <p class="footer__column-title typography-h5 slice-text">Адрес</p>
+            <p class="footer__address slideup-text">125239, Москва<br />Фармацевтический проезд, д. 1</p>
+            <a href="#" class="link link--light-green"
+              ><span class="link__text-container"><span class="link__text">на карте </span></span
+              ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+            ></a>
+          </div>
+          <div class="footer__column footer__column--report">
+            <p class="footer__column-title footer__column-title--report typography-h5 slice-text">Сообщить</p>
+            <p class="footer__note slideup-text">
+              Сообщить о случае возникновения нежелательных явлений, связанных с применением лекарственного препарата,
+              можно заполнив форму обращения в службу фармаконадзора
+            </p>
+            <a href="#" class="link link--light-green"
+              ><span class="link__text-container"><span class="link__text">сообщить </span></span
+              ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+            ></a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">© <span class="js-year">2020</span></p>
+          <a href="#" class="footer__privacy-policy">Политика конфиденциальности</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Мосфарма | Препарат</title>
+    <script defer="defer" src="js/bundle.js"></script>
+    <link href="css/style.bundle.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__container container container--big">
+        <div class="header__logo logo">
+          <img class="logo__image logo__image--white" src="img/logo-white.svg" width="165" height="35" />
+          <img class="logo__image logo__image--green" src="img/logo-green.svg" width="165" height="35" />
+        </div>
+        <nav class="header__menu main-menu main-menu--white">
+          <ul class="main-menu__list">
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link">О компании</a>
+              <ul class="main-menu__sublist">
+                <li class="main-menu__sublist-item">
+                  <a href="./history.html" class="main-menu__sublist-link">история</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./production.html" class="main-menu__sublist-link">производство</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./quality-system.html" class="main-menu__sublist-link">система качества</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./career.html" class="main-menu__sublist-link">карьера</a>
+                </li>
+              </ul>
+            </li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Продукция</a></li>
+            <li class="main-menu__item">
+              <a href="./contract-production.html" class="main-menu__link">Контрактное производство</a>
+            </li>
+            <li class="main-menu__item"><a href="./our-pharmacy.html" class="main-menu__link">Аптека</a></li>
+            <li class="main-menu__item"><a href="./contacts.html" class="main-menu__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <button class="header__search-button search-button search-toggle">
+          <svg class="search-button__icon" width="27" height="28">
+            <use xlink:href="img/sprite.svg#magnifier"></use>
+          </svg>
+        </button>
+        <button class="header__lang-switcher lang-switcher">EN</button>
+        <button class="header__burger burger" id="toggle-big-menu">
+          <svg class="burger__icon burger__icon--open" width="38" height="12">
+            <use xlink:href="img/sprite.svg#burger"></use>
+          </svg>
+          <svg class="burger__icon burger__icon--close" width="27" height="28">
+            <use xlink:href="img/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <div class="section big-menu" id="big-menu">
+      <div class="big-menu__container container container--big">
+        <div class="big-menu__left">
+          <p class="big-menu-callback__paragraph">Есть, что обсудить?<br />Напишите нам.</p>
+          <a class="big-menu-callback__link" href="mailto:info@mosfarma.ru">info@mosfarma.ru</a>
+        </div>
+        <ul class="big-menu__list">
+          <li class="big-menu__item">
+            <a href="./home.html" class="big-menu__link"
+              ><span class="big-menu__number">01</span> <span class="big-menu__label">Главная</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <span class="big-menu__link"
+              ><span class="big-menu__number">02</span> <span class="big-menu__label">О компании</span></span
+            >
+            <div class="big-menu__sublist-container">
+              <ul class="big-menu__sublist">
+                <li class="big-menu__sublist-item">
+                  <a href="./history.html" class="big-menu__link big-menu__sublist-link">история</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="#" class="big-menu__link big-menu__sublist-link">производство</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="./quality-system" class="big-menu__link big-menu__sublist-link">система качества</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="./career.html" class="big-menu__link big-menu__sublist-link">карьера</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="big-menu__item">
+            <a href="#" class="big-menu__link"
+              ><span class="big-menu__number">03</span> <span class="big-menu__label">Продукция</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./contract-production.html" class="big-menu__link"
+              ><span class="big-menu__number">04</span> <span class="big-menu__label">Контрактное производство</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./our-pharmacy.html" class="big-menu__link"
+              ><span class="big-menu__number">05</span> <span class="big-menu__label">Аптека МосФарма</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./contacts.html" class="big-menu__link"
+              ><span class="big-menu__number">06</span> <span class="big-menu__label">Контакты</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./inspection.html" class="big-menu__link"
+              ><span class="big-menu__number">07</span> <span class="big-menu__label">Фармаконадзор</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <footer class="big-menu__footer footer">
+        <div class="footer__container container container--big">
+          <div class="footer__middle">
+            <div class="footer__column">
+              <p class="footer__column-title typography-h5 slice-text">Адрес</p>
+              <p class="footer__address slideup-text">125239, Москва<br />Фармацевтический проезд, д. 1</p>
+              <a href="#" class="link link--light-green"
+                ><span class="link__text-container"><span class="link__text">на карте </span></span
+                ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+              ></a>
+            </div>
+            <div class="footer__column footer__column--report">
+              <p class="footer__column-title footer__column-title--report typography-h5 slice-text">Сообщить</p>
+              <p class="footer__note slideup-text">
+                Сообщить о случае возникновения нежелательных явлений, связанных с применением лекарственного препарата,
+                можно заполнив форму обращения в службу фармаконадзора
+              </p>
+              <a href="#" class="link link--light-green"
+                ><span class="link__text-container"><span class="link__text">сообщить </span></span
+                ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+              ></a>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <p class="footer__copyright">© <span class="js-year"></span> 2022</p>
+            <a href="#" class="footer__privacy-policy">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="section search">
+      <div class="search__container container">
+        <div class="search" id="search">
+          <form class="search__top">
+            <input class="search__input" placeholder="Поиск" />
+            <button type="submit" class="search__submit">
+              <svg class="search__submit-icon" width="37" height="38">
+                <use xlink:href="img/sprite.svg#magnifier"></use>
+              </svg>
+              <span class="visually-hidden">Искать</span>
+            </button>
+            <button type="button" class="search__close search-toggle">
+              <svg class="search__close-icon" width="25" height="25"><use xlink:href="img/sprite.svg#close"></use></svg>
+              <span class="visually-hidden">Закрыть поиск</span>
+            </button>
+          </form>
+          <button class="search__clean clean">
+            <svg class="clean__icon" width="21" height="22"><use xlink:href="img/sprite.svg#close"></use></svg>
+            <span>Очистить</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.querySelector("#header").classList.add("header--green", "inner");
+    </script>
+    <div class="medication">
+      <div class="medication__container container">
+        <ul class="medication__categories categories slideup-text">
+          <li class="categories__item">Гастроэнтерология</li>
+          <li class="categories__item">Слабительные</li>
+        </ul>
+        <div class="medication__body">
+          <div class="medication__main">
+            <h1 class="medication__title slice-text">Глицелакс для детей</h1>
+            <div class="medication__description slideup-text">
+              <p>Суппозитории ректальные.</p>
+              <p>10 свечей по 0,75 г.</p>
+            </div>
+            <a href="#" class="medication__link link link--orange"
+              ><span class="link__text-container"><span class="link__text">Сайт о препарате glycelax.ru </span></span
+              ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg> </a
+            ><a href="#" class="medication__reserve button button--orange"
+              ><span class="button__text-container"><span class="button__text">Забронировать онлайн </span></span
+              ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+            ></a>
+            <ul class="medication__tags tag-list slideup-text">
+              <li class="tag-list__item tag">слабительное средство</li>
+              <li class="tag-list__item tag">детские</li>
+              <li class="tag-list__item tag">без рецепта</li>
+            </ul>
+          </div>
+          <div class="medication__right medication-slider slideup-text">
+            <div class="medication-slider__track">
+              <div>
+                <a data-fslightbox="gallery-product" href="img/medication-page/slider-1.png"
+                  ><img
+                    class="medication__slider-image"
+                    src="img/medication-page/slider-1.png"
+                    width="504"
+                    height="294"
+                    alt=""
+                /></a>
+              </div>
+              <div>
+                <a data-fslightbox="gallery-product" href="img/medication-page/slider-2.png"
+                  ><img
+                    class="medication__slider-image"
+                    src="img/medication-page/slider-2.png"
+                    width="504"
+                    height="294"
+                    alt=""
+                /></a>
+              </div>
+              <div>
+                <a data-fslightbox="gallery-product" href="img/medication-page/slider-3.png"
+                  ><img
+                    class="medication__slider-image"
+                    src="img/medication-page/slider-3.png"
+                    width="504"
+                    height="294"
+                    alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <button class="medication__ask-question ask-question modal-button" data-modal="request">
+            <img
+              class="ask-question__text"
+              src="img/medication-page/ask-question-circle-text.svg"
+              width="152"
+              height="152"
+              alt=""
+            />
+            <img
+              class="ask-question__mark"
+              src="img/medication-page/ask-question-mark.svg"
+              width="22"
+              height="37"
+              alt=""
+            />
+            <span class="visually-hidden">Задать вопрос</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <section class="medication-info bg-pink">
+      <div class="medication-info__container container">
+        <div class="medication-info__main tabs">
+          <div class="tabs__header">
+            <button class="tabs__head-button active" data-content="about">О препарате</button>
+            <button class="tabs__head-button" data-content="instruction">Инструкция</button>
+          </div>
+          <div class="tabs__body">
+            <div id="about" class="tabs__content active typography-paragraphs">
+              <p>Глицелакс – удобная форма и специальная дозировка свечей для детей с 3-х месяцев.</p>
+              <p>Отсутствует необходимость делить свечу на части.</p>
+              <p>
+                Действует мягко, не травмирует слизистую оболочку, облегчая выведение каловых масс уже через 5-10 минут
+                после применения средства.
+              </p>
+              <p>Показано при запорах, нарушениях акта дефекации, детям с 3-х месячного возраста.</p>
+              <p>Не следует применять препарат более 7 дней без особых указаний врача.</p>
+            </div>
+            <div id="instruction" class="tabs__content typography-paragraphs">
+              <h2>Инструкция по применению</h2>
+              <p><b>Торговое наименование</b>: ГЛИЦЕЛАКС®</p>
+              <p><b>Химическое наименование</b>: пропан-1,2,3-триол</p>
+              <p><b>Лекарственная форма</b>: суппозитории ректальные</p>
+              <h2>Состав</h2>
+              <p>Действующее вещество:</p>
+              <p>Глицерол (Глицерин)</p>
+              <h2>Вспомогательные вещества:</h2>
+              <p>Магния карбонат (Магний углекислый основной водный);</p>
+              <p>Полисорбат-80 (Твин-80);</p>
+              <p>Моноглицериды дистиллированные;</p>
+              <p>Жир твердый (Витепсол W35).</p>
+              <h2>Фармакологическое действие</h2>
+              <p><b>Фармакодинамика</b></p>
+              <p>Слабительное средство.</p>
+              <p>
+                При использовании в виде ректальных суппозиториев смягчает и смазывает затвердевшие фекальные массы,
+                облегчает их прохождение по толстой кишке, оказывает раздражающее действие на слизистую оболочку
+                кишечника, рефлекторно стимулируя моторику кишечника, инициирует процесс дефекации, облегчает
+                прохождение и выведение каловых масс.
+              </p>
+              <h2>Фармакокинетика</h2>
+              <p>Метаболизируется в печени. Выводится через почки, в неизменном виде выделяется 7-14 %.</p>
+              <h2>Показания к применению</h2>
+              <p>Симптоматическое лечение запоров различного происхождения.</p>
+              <p>
+                Профилактика запоров у пациентов, которые не могут напрягаться при дефекации: болезненный тромбированный
+                геморрой, трещины заднего прохода или перианальный абсцесс, аноректальный стеноз, после перенесенного
+                инфаркта миокарда, после родов; перед и после хирургических операций на прямой кишке, перед
+                инструментальным и рентгенологическим исследованием прямой кишки. Нарушение акта дефекации у детей с 3-х
+                месячного возраста.
+              </p>
+              <h2>Противопоказания</h2>
+              <p>
+                Повышенная чувствительность к компонентам препарата, геморрой в стадии обострения, воспалительные
+                заболевания и опухоли прямой кишки, синдром раздраженного кишечника, кишечная непроходимость,
+                аппендицит, кровотечение, диарея, не диагностированная боль в животе, геморрагический ректоколит; детям
+                до 3- х месячного возраста.
+              </p>
+              <p><b>С осторожностью:</b> почечная недостаточность.</p>
+              <h2>Применение при беременности и кормлении грудью</h2>
+              <p>
+                В период беременности препарат можно использовать, если ожидаемая польза для матери превышает
+                потенциальный риск для плода.
+              </p>
+              <p>
+                В период грудного вскармливания применение лекарственного препарата возможно если, по мнению врача,
+                ожидаемая польза для матери превышает потенциальный риск для ребенка, так как неизвестно, экскретируется
+                ли глицерин в грудное молоко.
+              </p>
+              <h2>Способ применения и дозы</h2>
+              <p>Ректально.</p>
+              <p>
+                Препарат вводят в прямую кишку. Обычно дефекация происходит через 5-10 минут после введения средства.
+                Остатки суппозитория выводятся из кишечника с калом.
+              </p>
+              <p>Детям: с 3-х месячного возраста и старше в дозе 0,75 г 1 раз в сутки.</p>
+              <p>Взрослым: в дозе 1,5 г 1 раз в сутки.</p>
+              <p>При необходимости дозу повышают до 2 суппозиториев в сутки.</p>
+              <p>До и после применения суппозиториев следует тщательно вымыть руки.</p>
+              <p>Не следует применять препарат более 7 дней без особых указаний врача.</p>
+              <h2>Побочное действие</h2>
+              <p></p>
+              Возможны аллергические реакции, местные реакции (зуд и жжение кожи), появление спастических болей в
+              области кишечника. При длительном применении возможны явления раздражения прямой кишки, ослабление
+              физиологического процесса дефекации.
+              <p>При развитии побочных эффектов необходимо обратиться к врачу!</p>
+              <p></p>
+              <b>Симптомы передозировки, меры по оказанию помощи при передозировке</b>
+              <p>
+                Симптомом передозировки является частый жидкий стул. В случае передозировки следует отменить препарат.
+              </p>
+              <p><b>Взаимодействие с другими лекарственными препаратами</b></p>
+              <p>Нет данных.</p>
+              <h2>Особые указания</h2>
+              <p>
+                Перед и после использования суппозиториев следует тщательно вымыть руки. Систематический прием не
+                рекомендуется. Лечение прекращают после восстановления нормальной перистальтики кишечника.
+              </p>
+              <p>Не смазывать суппозитории минеральными жидкими или твердыми маслами.</p>
+              <p>
+                <b
+                  >Влияние на способность к управлению транспортными средствами и другими механизмами Не установлено.</b
+                >
+              </p>
+              <h2>Форма выпуска</h2>
+              <p>Суппозитории ректальные 0,75 г и 1,5 г.</p>
+              <p>
+                Первичная упаковка. По 5 суппозиториев в контурной ячейковой упаковке из пленки ПВХ/ПЭ для
+                суппозиториев.
+              </p>
+              <p>
+                Вторичная упаковка. Две контурные ячейковые упаковки вместе с инструкцией по применению помещают в пачку
+                из картона.
+              </p>
+              <h2>Условия хранения</h2>
+              <p>Хранить в сухом месте, при температуре от 8 до 15 °С.</p>
+              <p>Хранить в недоступном для детей месте.</p>
+              <h2>Срок годности</h2>
+              <p>3 года. Не использовать по истечении срока годности.</p>
+              <h2>Условия отпуска</h2>
+              <p>Отпускают без рецепта.</p>
+              <h2>Производитель</h2>
+              <p>ЗАО «Московская фармацевтическая фабрика»</p>
+            </div>
+          </div>
+        </div>
+        <div class="medication-info__links">
+          <button class="medication-info__ask-question ask-question modal-button" data-modal="request">
+            <img
+              class="ask-question__text"
+              src="img/medication-page/ask-question-circle-text.svg"
+              width="152"
+              height="152"
+              alt=""
+            />
+            <img
+              class="ask-question__mark"
+              src="img/medication-page/ask-question-mark.svg"
+              width="22"
+              height="37"
+              alt=""
+            />
+            <span class="visually-hidden">Задать вопрос</span>
+          </button>
+          <a href="#"
+            ><a href="img/instruction.pdf" style="" target="_blank" class="medication-info__link link link--orange"
+              ><span class="link__text-container"><span class="link__text">Скачать инструкцию </span></span
+              ><svg class="link__icon" width="17" height="11">
+                <use xlink:href="img/sprite.svg#arrow"></use>
+              </svg> </a></a
+          ><a href="#"
+            ><a href="#" class="medication-info__link link link--orange"
+              ><span class="link__text-container"
+                ><span class="link__text">сообщить о нежелательном явлении </span></span
+              ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg></a
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section class="slide our-pharmacy">
+      <div class="slide__container container">
+        <div class="slide__image-container our-pharmacy__image-container">
+          <img
+            class="our-pharmacy__image pulsating-image"
+            src="img/home-page/fourth-image.png"
+            width="430"
+            height="411"
+            alt=""
+          />
+        </div>
+        <div class="slide__text-container">
+          <h2 class="slide__title typography-h4 slice-text">Всю продукцию МосФарма можно приобрести в нашей аптеке</h2>
+          <div class="slide__paragraphs typography-paragraphs slideup-text">
+            <p>
+              Продукцию компании МосФарма можно приобрести или забронировать онлайн на сайте аптеки. В аптеке МосФарма
+              расположен собственный производственный отдел гомеопатических препаратов.
+            </p>
+          </div>
+          <a href="#" class="button"
+            ><span class="button__text-container"><span class="button__text">сайт аптеки </span></span
+            ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+          ></a>
+        </div>
+      </div>
+    </section>
+    <div class="modal" id="request">
+      <div class="modal__overlay"></div>
+      <div class="modal__content">
+        <div class="modal__container">
+          <div class="modal__inner modal-form">
+            <h4 class="modal-form__title typography-h5 upperce">Задать<br />вопрос</h4>
+            <p class="modal-form__subtitle">* - поля, обязательные для заполнения</p>
+            <div class="modal-form__input input">
+              <label class="input__label"
+                ><input class="input__field" placeholder=" " /> <span class="input__hint">ФИО*</span>
+                <span class="input__bottom-border"></span
+              ></label>
+            </div>
+            <div class="modal-form__input input">
+              <label class="input__label"
+                ><input class="input__field" placeholder=" " />
+                <span class="input__hint">Название вашей организации</span> <span class="input__bottom-border"></span
+              ></label>
+            </div>
+            <div class="modal-form__input input">
+              <label class="input__label"
+                ><input class="input__field" type="tel" placeholder=" " />
+                <span class="input__hint">Контактный телефон*</span> <span class="input__bottom-border"></span
+              ></label>
+            </div>
+            <div class="modal-form__input input">
+              <label class="input__label"
+                ><input class="input__field" type="email" placeholder=" " /> <span class="input__hint">E-mail*</span>
+                <span class="input__bottom-border"></span
+              ></label>
+            </div>
+            <div class="modal-form__input input">
+              <label class="input__label"
+                ><input class="input__field" type="email" placeholder=" " />
+                <span class="input__hint">Текст сообщения</span> <span class="input__bottom-border"></span
+              ></label>
+            </div>
+            <div class="modal-form__approval checkbox checkbox--small">
+              <input type="checkbox" class="checkbox__field visually-hidden" name="approval" id="approval" />
+              <label class="checkbox__label" for="approval"
+                >Я ознакомился(лась) с <a href="policy.html">политикой оператора</a> в отношении обработки персональных
+                данных и даю <a href="policy.html">согласие</a> на обработку персональных данных.</label
+              >
+            </div>
+            <button class="modal-form__button button">
+              <span class="button__text-container"><span class="button__text">отправить вопрос </span></span
+              ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg>
+            </button>
+          </div>
+          <button class="modal__close">
+            <svg class="modal__close-icon" width="27" height="28"><use xlink:href="img/sprite.svg#close"></use></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__container container container--big">
+        <nav class="footer__top">
+          <img
+            class="footer__logo logo logo__image"
+            src="img/logo-light-green.svg"
+            width="121"
+            height="25"
+            alt="Логотип МосФарма"
+          />
+          <ul class="footer__menu footer-menu">
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">О компании</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Продукция</a></li>
+            <li class="footer-menu__item">
+              <a href="./contract-production.html" class="footer-menu__link">Контрактное производство</a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="./our-pharmacy.html" class="footer-menu__link">Аптека МосФарма</a>
+            </li>
+            <li class="footer-menu__item"><a href="./contacts.html" class="footer-menu__link">Контакты</a></li>
+            <li class="footer-menu__item"><a href="./inspection.html" class="footer-menu__link">Фармаконадзор</a></li>
+          </ul>
+        </nav>
+        <div class="footer__middle">
+          <div class="footer__column footer__column--feedback">
+            <p class="footer__column-title typography-h5 slice-text">Есть, что обсудить?<br />Напишите нам</p>
+            <a href="mailto:info@mosfarma.ru" class="footer__email button button--big button--lowercase"
+              ><span class="button__text-container"><span class="button__text">info@mosfarma.ru</span></span></a
+            >
+          </div>
+          <div class="footer__column">
+            <p class="footer__column-title typography-h5 slice-text">Адрес</p>
+            <p class="footer__address slideup-text">125239, Москва<br />Фармацевтический проезд, д. 1</p>
+            <a href="#" class="link link--light-green"
+              ><span class="link__text-container"><span class="link__text">на карте </span></span
+              ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+            ></a>
+          </div>
+          <div class="footer__column footer__column--report">
+            <p class="footer__column-title footer__column-title--report typography-h5 slice-text">Сообщить</p>
+            <p class="footer__note slideup-text">
+              Сообщить о случае возникновения нежелательных явлений, связанных с применением лекарственного препарата,
+              можно заполнив форму обращения в службу фармаконадзора
+            </p>
+            <a href="#" class="link link--light-green"
+              ><span class="link__text-container"><span class="link__text">сообщить </span></span
+              ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+            ></a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">© <span class="js-year">2020</span></p>
+          <a href="#" class="footer__privacy-policy">Политика конфиденциальности</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

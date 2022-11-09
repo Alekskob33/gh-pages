@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Мосфарма | Фармаконадзор</title>
+    <script defer="defer" src="js/bundle.js"></script>
+    <link href="css/style.bundle.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__container container container--big">
+        <div class="header__logo logo">
+          <img class="logo__image logo__image--white" src="img/logo-white.svg" width="165" height="35" />
+          <img class="logo__image logo__image--green" src="img/logo-green.svg" width="165" height="35" />
+        </div>
+        <nav class="header__menu main-menu main-menu--white">
+          <ul class="main-menu__list">
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link">О компании</a>
+              <ul class="main-menu__sublist">
+                <li class="main-menu__sublist-item">
+                  <a href="./history.html" class="main-menu__sublist-link">история</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./production.html" class="main-menu__sublist-link">производство</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./quality-system.html" class="main-menu__sublist-link">система качества</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./career.html" class="main-menu__sublist-link">карьера</a>
+                </li>
+              </ul>
+            </li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Продукция</a></li>
+            <li class="main-menu__item">
+              <a href="./contract-production.html" class="main-menu__link">Контрактное производство</a>
+            </li>
+            <li class="main-menu__item"><a href="./our-pharmacy.html" class="main-menu__link">Аптека</a></li>
+            <li class="main-menu__item"><a href="./contacts.html" class="main-menu__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <button class="header__search-button search-button search-toggle">
+          <svg class="search-button__icon" width="27" height="28">
+            <use xlink:href="img/sprite.svg#magnifier"></use>
+          </svg>
+        </button>
+        <button class="header__lang-switcher lang-switcher">EN</button>
+        <button class="header__burger burger" id="toggle-big-menu">
+          <svg class="burger__icon burger__icon--open" width="38" height="12">
+            <use xlink:href="img/sprite.svg#burger"></use>
+          </svg>
+          <svg class="burger__icon burger__icon--close" width="27" height="28">
+            <use xlink:href="img/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <div class="section big-menu" id="big-menu">
+      <div class="big-menu__container container container--big">
+        <div class="big-menu__left">
+          <p class="big-menu-callback__paragraph">Есть, что обсудить?<br />Напишите нам.</p>
+          <a class="big-menu-callback__link" href="mailto:info@mosfarma.ru">info@mosfarma.ru</a>
+        </div>
+        <ul class="big-menu__list">
+          <li class="big-menu__item">
+            <a href="./home.html" class="big-menu__link"
+              ><span class="big-menu__number">01</span> <span class="big-menu__label">Главная</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <span class="big-menu__link"
+              ><span class="big-menu__number">02</span> <span class="big-menu__label">О компании</span></span
+            >
+            <div class="big-menu__sublist-container">
+              <ul class="big-menu__sublist">
+                <li class="big-menu__sublist-item">
+                  <a href="./history.html" class="big-menu__link big-menu__sublist-link">история</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="#" class="big-menu__link big-menu__sublist-link">производство</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="./quality-system" class="big-menu__link big-menu__sublist-link">система качества</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="./career.html" class="big-menu__link big-menu__sublist-link">карьера</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="big-menu__item">
+            <a href="#" class="big-menu__link"
+              ><span class="big-menu__number">03</span> <span class="big-menu__label">Продукция</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./contract-production.html" class="big-menu__link"
+              ><span class="big-menu__number">04</span> <span class="big-menu__label">Контрактное производство</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./our-pharmacy.html" class="big-menu__link"
+              ><span class="big-menu__number">05</span> <span class="big-menu__label">Аптека МосФарма</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./contacts.html" class="big-menu__link"
+              ><span class="big-menu__number">06</span> <span class="big-menu__label">Контакты</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./inspection.html" class="big-menu__link"
+              ><span class="big-menu__number">07</span> <span class="big-menu__label">Фармаконадзор</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <footer class="big-menu__footer footer">
+        <div class="footer__container container container--big">
+          <div class="footer__middle">
+            <div class="footer__column">
+              <p class="footer__column-title typography-h5 slice-text">Адрес</p>
+              <p class="footer__address slideup-text">125239, Москва<br />Фармацевтический проезд, д. 1</p>
+              <a href="#" class="link link--light-green"
+                ><span class="link__text-container"><span class="link__text">на карте </span></span
+                ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+              ></a>
+            </div>
+            <div class="footer__column footer__column--report">
+              <p class="footer__column-title footer__column-title--report typography-h5 slice-text">Сообщить</p>
+              <p class="footer__note slideup-text">
+                Сообщить о случае возникновения нежелательных явлений, связанных с применением лекарственного препарата,
+                можно заполнив форму обращения в службу фармаконадзора
+              </p>
+              <a href="#" class="link link--light-green"
+                ><span class="link__text-container"><span class="link__text">сообщить </span></span
+                ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+              ></a>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <p class="footer__copyright">© <span class="js-year"></span> 2022</p>
+            <a href="#" class="footer__privacy-policy">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="section search">
+      <div class="search__container container">
+        <div class="search" id="search">
+          <form class="search__top">
+            <input class="search__input" placeholder="Поиск" />
+            <button type="submit" class="search__submit">
+              <svg class="search__submit-icon" width="37" height="38">
+                <use xlink:href="img/sprite.svg#magnifier"></use>
+              </svg>
+              <span class="visually-hidden">Искать</span>
+            </button>
+            <button type="button" class="search__close search-toggle">
+              <svg class="search__close-icon" width="25" height="25"><use xlink:href="img/sprite.svg#close"></use></svg>
+              <span class="visually-hidden">Закрыть поиск</span>
+            </button>
+          </form>
+          <button class="search__clean clean">
+            <svg class="clean__icon" width="21" height="22"><use xlink:href="img/sprite.svg#close"></use></svg>
+            <span>Очистить</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.querySelector("#header").classList.add("header--green", "inner");
+    </script>
+    <section class="inspection">
+      <div class="inspection__container container container--small">
+        <h1 class="inspection__title slice-text">Фармаконадзор</h1>
+        <div class="inspection__paragraphs typography-paragraphs slideup-text">
+          <p>
+            Компания МосФарма заботится о безопасности своих препаратов и здоровье потребителей. Следуя этическим
+            принципам и требованиям российского законодательства, компания МосФарма осуществляет сбор и анализ
+            информации о побочных явлениях и взаимодействии лекарств, а также активно сотрудничает с регуляторными
+            органами в этой области.
+          </p>
+        </div>
+        <div class="inspection__manual-description slideup-text">
+          <p>
+            Если Вам стало известно о нежелательных явлениях, возникших при применении продукции компании МосФарма,
+            пожалуйста, сообщите нам любым удобным способом:
+          </p>
+        </div>
+        <ul class="inspection__manual inspection-manual">
+          <li class="inspection-manual__item">
+            <span class="inspection-manual__number slice-text">1</span>
+            <div class="inspection-manual__body typography-paragraphs slideup-text">
+              <p>Позвоните в службу фармаконадзора<br />МосФарма по телефону:</p>
+              <a class="inspection-manual__phone" href="tel:+74959560571">+7 (495) 956-05-71</a>
+            </div>
+          </li>
+          <li class="inspection-manual__item">
+            <span class="inspection-manual__number slice-text">2</span>
+            <div class="inspection-manual__body typography-paragraphs slideup-text">
+              <p>Заполните прилагаемую форму извещения о нежелательном явлении:</p>
+              <a href="#" class="inspection-manual__button button button--orange"
+                ><span class="button__text-container"><span class="button__text">заполнить </span></span
+                ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+              ></a>
+            </div>
+          </li>
+          <li class="inspection-manual__item">
+            <span class="inspection-manual__number slice-text">3</span>
+            <div class="inspection-manual__body typography-paragraphs slideup-text">
+              <p>
+                Скачайте форму извещения, заполните ее и отправьте нам по электронной почте на адрес
+                <a class="inspection-manual__email" href="mailto:">info@mosfarma.ru</a>
+              </p>
+              <a href="#" class="inspection-manual__button button button--orange"
+                ><span class="button__text-container"><span class="button__text">скачать </span></span
+                ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+              ></a>
+            </div>
+          </li>
+          <li class="inspection-manual__item">
+            <span class="inspection-manual__number slice-text">4</span>
+            <div class="inspection-manual__body typography-paragraphs slideup-text">
+              <p>
+                Если Вы хотите сделать сообщение по вопросам качества лекарственных препаратов, просим Вас заполнить и
+                отправить Анкету по качеству.
+              </p>
+              <a href="#" class="inspection-manual__button button button--orange"
+                ><span class="button__text-container"><span class="button__text">скачать анкету </span></span
+                ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+              ></a>
+            </div>
+          </li>
+        </ul>
+        <p class="inspection__bold slice-text">
+          Также о возникновении нежелательных явлений, возникших при применении продукции компании МосФарма, вы можете
+          сообщить в Росздравнадзор. Сообщение может быть направлено:
+        </p>
+        <ul class="list list--orange slideup-text">
+          <li>e-mail: pharm@roszdravnadzor.ru</li>
+          <li>факс: +7 (495) 698-15-73</li>
+          <li>он-лайн на сайте npr.roszdravnadzor.ru</li>
+          <li>почтовый адрес: 109074, г. Москва, Славянская площадь, д. 4, строение 1</li>
+        </ul>
+      </div>
+    </section>
+    <section class="complaint">
+      <div class="container container--small">
+        <h2 class="complaint__title">Форма извещения<br />о нежелательном явлении</h2>
+        <p class="complaint__subtitle slideup-text">* - поля, обязательные для заполнения</p>
+        <div class="complaint__section complaint__message">
+          <h4 class="complaint__section-title">Сообщение*</h4>
+          <div class="complaint__row">
+            <div class="complaint__radio radio">
+              <input
+                type="radio"
+                class="radio__field visually-hidden"
+                name="message"
+                value="first-time"
+                id="message-first-time"
+                checked="checked"
+              />
+              <label class="radio__label" for="message-first-time">Первичное</label>
+            </div>
+            <div class="complaint__radio radio">
+              <input
+                type="radio"
+                class="radio__field visually-hidden"
+                name="message"
+                value="additional"
+                id="message-additional"
+              />
+              <label class="radio__label" for="message-additional">Дополнительная информация к сообщению</label>
+            </div>
+          </div>
+          <div class="complaint__row">
+            <div class="complaint__input input">
+              <label class="input__label"
+                ><input class="input__field" placeholder=" " /> <span class="input__hint">Номер сообщения</span>
+                <span class="input__bottom-border"></span
+              ></label>
+            </div>
+            <div class="complaint__input input">
+              <label class="input__label"
+                ><input class="input__field" placeholder=" " /> <span class="input__hint">от</span>
+                <span class="input__bottom-border"></span
+              ></label>
+            </div>
+          </div>
+        </div>
+        <div class="complaint__section">
+          <h4 class="complaint__section-title">Данные пациента</h4>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " />
+              <span class="input__hint">Инициалы пациента (код пациента)* </span
+              ><span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__row complaint__row--center complaint__gender">
+            <span class="complaint__label">Пол*</span>
+            <div class="complaint__radio radio">
+              <input type="radio" class="radio__field visually-hidden" name="gender" value="man" id="gender-man" />
+              <label class="radio__label" for="gender-man">мужчина</label>
+            </div>
+            <div class="complaint__radio radio">
+              <input type="radio" class="radio__field visually-hidden" name="gender" value="woman" id="gender-woman" />
+              <label class="radio__label" for="gender-woman">женщина</label>
+            </div>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" type="number" placeholder=" " /> <span class="input__hint">Вес, кг</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" type="number" placeholder=" " />
+              <span class="input__hint">Возраст (лет)</span> <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__pregnancy complaint__row complaint__row--center">
+            <div class="complaint__checkbox checkbox checkbox--reverse">
+              <input type="checkbox" class="checkbox__field visually-hidden" name="pregnancy" id="pregnancy" />
+              <label class="checkbox__label" for="pregnancy">Беременность</label>
+            </div>
+            <div class="complaint__input input">
+              <label class="input__label"
+                ><input class="input__field" type="number" name="weight" placeholder=" " />
+                <span class="input__hint">Срок, недель</span> <span class="input__bottom-border"></span
+              ></label>
+            </div>
+          </div>
+          <div class="complaint__allergy complaint__row complaint__row--center">
+            <div class="complaint__checkbox checkbox checkbox--reverse">
+              <input type="checkbox" class="checkbox__field visually-hidden" name="allergy" id="allergy" />
+              <label class="checkbox__label" for="allergy">Аллергия</label>
+            </div>
+            <div class="complaint__input input">
+              <label class="input__label"
+                ><input class="input__field" name="weight" placeholder=" " /> <span class="input__hint">На</span>
+                <span class="input__bottom-border"></span
+              ></label>
+            </div>
+          </div>
+        </div>
+        <div class="complaint__section complaint__therapy">
+          <h4 class="complaint__section-title">Лечение</h4>
+          <div class="complaint__row">
+            <div class="complaint__radio radio">
+              <input
+                type="radio"
+                class="radio__field visually-hidden"
+                name="therapy"
+                value="outpatient"
+                id="therapy-outpatient"
+                checked="checked"
+              />
+              <label class="radio__label" for="therapy-outpatient">амбулаторное</label>
+            </div>
+            <div class="complaint__radio radio">
+              <input
+                type="radio"
+                class="radio__field visually-hidden"
+                name="therapy"
+                value="stationary"
+                id="therapy-stationary"
+                checked="checked"
+              />
+              <label class="radio__label" for="therapy-stationary">стационарное</label>
+            </div>
+            <div class="complaint__radio radio">
+              <input
+                type="radio"
+                class="radio__field visually-hidden"
+                name="therapy"
+                value="self"
+                id="therapy-self"
+                checked="checked"
+              />
+              <label class="radio__label" for="therapy-self">Самолечение</label>
+            </div>
+          </div>
+        </div>
+        <div class="complaint__section complaint__suspected">
+          <h4 class="complaint__section-title">Лекарственные средства, предположительно вызвавшие НР</h4>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " />
+              <span class="input__hint">Наименование ЛС (торговое)*</span> <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " /> <span class="input__hint">Производитель</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " /> <span class="input__hint">Номер серии</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " /> <span class="input__hint">Доза, путь введения</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " /> <span class="input__hint">Дата начала терапии</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " /> <span class="input__hint">Дата окончания терапии</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " /> <span class="input__hint">Показания для назначения</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+        </div>
+        <div class="complaint__section complaint__reaction">
+          <h4 class="complaint__section-title">Нежелательная реакция</h4>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " />
+              <span class="input__hint">Дата начала нежелательной реакции</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " />
+              <span class="input__hint">Дата разрешения нежелательной реакции</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <textarea
+            class="complaint__textarea textarea"
+            rows="2"
+            placeholder="Описание реакции (укажите все детали, включая данные лабораторных исследований)*"
+          ></textarea>
+          <p class="complaint__label">Критерии серьезности НР</p>
+          <div class="complaint__checkbox checkbox">
+            <input
+              type="checkbox"
+              class="checkbox__field visually-hidden"
+              name="severity-criteria"
+              id="severity-criteria-1"
+            />
+            <label class="checkbox__label" for="severity-criteria-1">Смерть</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input
+              type="checkbox"
+              class="checkbox__field visually-hidden"
+              name="severity-criteria"
+              id="severity-criteria-2"
+            />
+            <label class="checkbox__label" for="severity-criteria-2">Угроза жизни</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input
+              type="checkbox"
+              class="checkbox__field visually-hidden"
+              name="severity-criteria"
+              id="severity-criteria-3"
+            />
+            <label class="checkbox__label" for="severity-criteria-3">Госпитализация или ее продление</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input
+              type="checkbox"
+              class="checkbox__field visually-hidden"
+              name="severity-criteria"
+              id="severity-criteria-4"
+            />
+            <label class="checkbox__label" for="severity-criteria-4">Инвалидность</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input
+              type="checkbox"
+              class="checkbox__field visually-hidden"
+              name="severity-criteria"
+              id="severity-criteria-5"
+            />
+            <label class="checkbox__label" for="severity-criteria-5">Врожденные аномалии</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input
+              type="checkbox"
+              class="checkbox__field visually-hidden"
+              name="severity-criteria"
+              id="severity-criteria-6"
+            />
+            <label class="checkbox__label" for="severity-criteria-6">Клинически значимое событие</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input
+              type="checkbox"
+              class="checkbox__field visually-hidden"
+              name="severity-criteria"
+              id="severity-criteria-7"
+            />
+            <label class="checkbox__label" for="severity-criteria-7">Не применимо</label>
+          </div>
+          <p class="complaint__label">Предпринятые меры</p>
+          <div class="complaint__checkbox checkbox">
+            <input
+              type="checkbox"
+              class="checkbox__field visually-hidden"
+              name="taken-measures"
+              id="taken-measures-1"
+            />
+            <label class="checkbox__label" for="taken-measures-1">Без лечения</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input
+              type="checkbox"
+              class="checkbox__field visually-hidden"
+              name="taken-measures"
+              id="taken-measures-2"
+            />
+            <label class="checkbox__label" for="taken-measures-2">Отмена подозреваемого ЛС</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input
+              type="checkbox"
+              class="checkbox__field visually-hidden"
+              name="taken-measures"
+              id="taken-measures-3"
+            />
+            <label class="checkbox__label" for="taken-measures-3">Снижение дозы ЛС</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input
+              type="checkbox"
+              class="checkbox__field visually-hidden"
+              name="taken-measures"
+              id="taken-measures-4"
+            />
+            <label class="checkbox__label" for="taken-measures-4"
+              >Немедикаментозная терапия (в т.ч. хирургическое вмешательство)</label
+            >
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input
+              type="checkbox"
+              class="checkbox__field visually-hidden"
+              name="taken-measures"
+              id="taken-measures-5"
+            />
+            <label class="checkbox__label" for="taken-measures-5">Лекарственная терапия</label>
+          </div>
+          <p class="complaint__label">Исход</p>
+          <div class="complaint__checkbox checkbox">
+            <input type="checkbox" class="checkbox__field visually-hidden" name="result" id="result-1" />
+            <label class="checkbox__label" for="result-1">Выздоровление без последствий</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input type="checkbox" class="checkbox__field visually-hidden" name="result" id="result-2" />
+            <label class="checkbox__label" for="result-2">Улучшение состояния</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input type="checkbox" class="checkbox__field visually-hidden" name="result" id="result-3" />
+            <label class="checkbox__label" for="result-3">Состояние без изменений</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input type="checkbox" class="checkbox__field visually-hidden" name="result" id="result-4" />
+            <label class="checkbox__label" for="result-4">Выздоровление с последствиями (указать)</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input type="checkbox" class="checkbox__field visually-hidden" name="result" id="result-5" />
+            <label class="checkbox__label" for="result-5">Смерть</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input type="checkbox" class="checkbox__field visually-hidden" name="result" id="result-6" />
+            <label class="checkbox__label" for="result-6">Неизвестно</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input type="checkbox" class="checkbox__field visually-hidden" name="result" id="result-7" />
+            <label class="checkbox__label" for="result-7">Не применимо</label>
+          </div>
+          <p class="complaint__label">Сопровождалась ли отмена</p>
+          <div class="complaint__checkbox checkbox">
+            <input type="checkbox" class="checkbox__field visually-hidden" name="cancellation" id="cancellation-1" />
+            <label class="checkbox__label" for="cancellation-1">Нет</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input type="checkbox" class="checkbox__field visually-hidden" name="cancellation" id="cancellation-2" />
+            <label class="checkbox__label" for="cancellation-2">Да</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input type="checkbox" class="checkbox__field visually-hidden" name="cancellation" id="cancellation-3" />
+            <label class="checkbox__label" for="cancellation-3">ЛС не отменялось</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input type="checkbox" class="checkbox__field visually-hidden" name="cancellation" id="cancellation-4" />
+            <label class="checkbox__label" for="cancellation-4">Не применимо</label>
+          </div>
+          <p class="complaint__label">Назначалось ли лекарство повторно?</p>
+          <div class="complaint__checkbox checkbox">
+            <input type="checkbox" class="checkbox__field visually-hidden" name="repeatedly" id="repeatedly-1" />
+            <label class="checkbox__label" for="repeatedly-1">Нет</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input type="checkbox" class="checkbox__field visually-hidden" name="repeatedly" id="repeatedly-2" />
+            <label class="checkbox__label" for="repeatedly-2">Да</label>
+          </div>
+          <div class="complaint__checkbox checkbox">
+            <input type="checkbox" class="checkbox__field visually-hidden" name="repeatedly" id="repeatedly-3" />
+            <label class="checkbox__label" for="repeatedly-3">Не применимо</label>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " /> <span class="input__hint">Результат</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+        </div>
+        <div class="complaint__section complaint__suspected">
+          <h4 class="complaint__section-title">
+            Другие лекарственные средства, принимаемые в течение последних 3 месяцев, включая ЛС, принимаемые пациентом
+            самостоятельно (по собственному желанию)
+          </h4>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " />
+              <span class="input__hint">Наименование ЛС (торговое)*</span> <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " /> <span class="input__hint">Производитель</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " /> <span class="input__hint">Номер серии</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " /> <span class="input__hint">Доза, путь введения</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " /> <span class="input__hint">Дата начала терапии</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " /> <span class="input__hint">Дата окончания терапии</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " /> <span class="input__hint">Показания для назначения</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+        </div>
+        <div class="complaint__section complaint__applicant">
+          <h4 class="complaint__section-title">Данные сообщающего лица</h4>
+          <div class="complaint__row">
+            <div class="complaint__radio radio">
+              <input
+                type="radio"
+                class="radio__field visually-hidden"
+                name="reporting-person"
+                value="reporting-person"
+                id="reporting-person-1"
+                checked="checked"
+              />
+              <label class="radio__label" for="reporting-person-1">Врач</label>
+            </div>
+            <div class="complaint__radio radio">
+              <input
+                type="radio"
+                class="radio__field visually-hidden"
+                name="reporting-person"
+                value="reporting-person"
+                id="reporting-person-2"
+                checked="checked"
+              />
+              <label class="radio__label" for="reporting-person-2">Другой специалист системы здравоохранения</label>
+            </div>
+            <div class="complaint__radio radio">
+              <input
+                type="radio"
+                class="radio__field visually-hidden"
+                name="reporting-person"
+                value="reporting-person"
+                id="reporting-person-3"
+                checked="checked"
+              />
+              <label class="radio__label" for="reporting-person-3">Пациент</label>
+            </div>
+            <div class="complaint__radio radio">
+              <input
+                type="radio"
+                class="radio__field visually-hidden"
+                name="reporting-person"
+                value="reporting-person"
+                id="reporting-person-4"
+                checked="checked"
+              />
+              <label class="radio__label" for="reporting-person-4">Иной</label>
+            </div>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " />
+              <span class="input__hint">Контактный телефон/email:</span> <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " /> <span class="input__hint">Ф.И.О.</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " /> <span class="input__hint">Должность и место работы</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+          <div class="complaint__input input">
+            <label class="input__label"
+              ><input class="input__field" placeholder=" " /> <span class="input__hint">Дата сообщения</span>
+              <span class="input__bottom-border"></span
+            ></label>
+          </div>
+        </div>
+        <div class="complaint__approval checkbox checkbox--small">
+          <input type="checkbox" class="checkbox__field visually-hidden" name="approval" id="approval" />
+          <label class="checkbox__label" for="approval"
+            >Я ознакомился(лась) с <a href="policy.html">политикой оператора</a> в отношении обработки персональных
+            данных и даю <a href="policy.html">согласие</a> на обработку персональных данных.</label
+          >
+        </div>
+        <button class="button" disabled="disabled">
+          <span class="button__text-container"><span class="button__text">отправить </span></span
+          ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg>
+        </button>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__container container container--big">
+        <nav class="footer__top">
+          <img
+            class="footer__logo logo logo__image"
+            src="img/logo-light-green.svg"
+            width="121"
+            height="25"
+            alt="Логотип МосФарма"
+          />
+          <ul class="footer__menu footer-menu">
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">О компании</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Продукция</a></li>
+            <li class="footer-menu__item">
+              <a href="./contract-production.html" class="footer-menu__link">Контрактное производство</a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="./our-pharmacy.html" class="footer-menu__link">Аптека МосФарма</a>
+            </li>
+            <li class="footer-menu__item"><a href="./contacts.html" class="footer-menu__link">Контакты</a></li>
+            <li class="footer-menu__item"><a href="./inspection.html" class="footer-menu__link">Фармаконадзор</a></li>
+          </ul>
+        </nav>
+        <div class="footer__middle">
+          <div class="footer__column footer__column--feedback">
+            <p class="footer__column-title typography-h5 slice-text">Есть, что обсудить?<br />Напишите нам</p>
+            <a href="mailto:info@mosfarma.ru" class="footer__email button button--big button--lowercase"
+              ><span class="button__text-container"><span class="button__text">info@mosfarma.ru</span></span></a
+            >
+          </div>
+          <div class="footer__column">
+            <p class="footer__column-title typography-h5 slice-text">Адрес</p>
+            <p class="footer__address slideup-text">125239, Москва<br />Фармацевтический проезд, д. 1</p>
+            <a href="#" class="link link--light-green"
+              ><span class="link__text-container"><span class="link__text">на карте </span></span
+              ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+            ></a>
+          </div>
+          <div class="footer__column footer__column--report">
+            <p class="footer__column-title footer__column-title--report typography-h5 slice-text">Сообщить</p>
+            <p class="footer__note slideup-text">
+              Сообщить о случае возникновения нежелательных явлений, связанных с применением лекарственного препарата,
+              можно заполнив форму обращения в службу фармаконадзора
+            </p>
+            <a href="#" class="link link--light-green"
+              ><span class="link__text-container"><span class="link__text">сообщить </span></span
+              ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+            ></a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">© <span class="js-year">2020</span></p>
+          <a href="#" class="footer__privacy-policy">Политика конфиденциальности</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

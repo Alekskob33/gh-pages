@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Мосфарма | Производство</title>
+    <script defer="defer" src="js/bundle.js"></script>
+    <link href="css/style.bundle.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__container container container--big">
+        <div class="header__logo logo">
+          <img class="logo__image logo__image--white" src="img/logo-white.svg" width="165" height="35" />
+          <img class="logo__image logo__image--green" src="img/logo-green.svg" width="165" height="35" />
+        </div>
+        <nav class="header__menu main-menu main-menu--white">
+          <ul class="main-menu__list">
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link">О компании</a>
+              <ul class="main-menu__sublist">
+                <li class="main-menu__sublist-item">
+                  <a href="./history.html" class="main-menu__sublist-link">история</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./production.html" class="main-menu__sublist-link">производство</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./quality-system.html" class="main-menu__sublist-link">система качества</a>
+                </li>
+                <li class="main-menu__sublist-item">
+                  <a href="./career.html" class="main-menu__sublist-link">карьера</a>
+                </li>
+              </ul>
+            </li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Продукция</a></li>
+            <li class="main-menu__item">
+              <a href="./contract-production.html" class="main-menu__link">Контрактное производство</a>
+            </li>
+            <li class="main-menu__item"><a href="./our-pharmacy.html" class="main-menu__link">Аптека</a></li>
+            <li class="main-menu__item"><a href="./contacts.html" class="main-menu__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <button class="header__search-button search-button search-toggle">
+          <svg class="search-button__icon" width="27" height="28">
+            <use xlink:href="img/sprite.svg#magnifier"></use>
+          </svg>
+        </button>
+        <button class="header__lang-switcher lang-switcher">EN</button>
+        <button class="header__burger burger" id="toggle-big-menu">
+          <svg class="burger__icon burger__icon--open" width="38" height="12">
+            <use xlink:href="img/sprite.svg#burger"></use>
+          </svg>
+          <svg class="burger__icon burger__icon--close" width="27" height="28">
+            <use xlink:href="img/sprite.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <div class="section big-menu" id="big-menu">
+      <div class="big-menu__container container container--big">
+        <div class="big-menu__left">
+          <p class="big-menu-callback__paragraph">Есть, что обсудить?<br />Напишите нам.</p>
+          <a class="big-menu-callback__link" href="mailto:info@mosfarma.ru">info@mosfarma.ru</a>
+        </div>
+        <ul class="big-menu__list">
+          <li class="big-menu__item">
+            <a href="./home.html" class="big-menu__link"
+              ><span class="big-menu__number">01</span> <span class="big-menu__label">Главная</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <span class="big-menu__link"
+              ><span class="big-menu__number">02</span> <span class="big-menu__label">О компании</span></span
+            >
+            <div class="big-menu__sublist-container">
+              <ul class="big-menu__sublist">
+                <li class="big-menu__sublist-item">
+                  <a href="./history.html" class="big-menu__link big-menu__sublist-link">история</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="#" class="big-menu__link big-menu__sublist-link">производство</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="./quality-system" class="big-menu__link big-menu__sublist-link">система качества</a>
+                </li>
+                <li class="big-menu__sublist-item">
+                  <a href="./career.html" class="big-menu__link big-menu__sublist-link">карьера</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="big-menu__item">
+            <a href="#" class="big-menu__link"
+              ><span class="big-menu__number">03</span> <span class="big-menu__label">Продукция</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./contract-production.html" class="big-menu__link"
+              ><span class="big-menu__number">04</span> <span class="big-menu__label">Контрактное производство</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./our-pharmacy.html" class="big-menu__link"
+              ><span class="big-menu__number">05</span> <span class="big-menu__label">Аптека МосФарма</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./contacts.html" class="big-menu__link"
+              ><span class="big-menu__number">06</span> <span class="big-menu__label">Контакты</span></a
+            >
+          </li>
+          <li class="big-menu__item">
+            <a href="./inspection.html" class="big-menu__link"
+              ><span class="big-menu__number">07</span> <span class="big-menu__label">Фармаконадзор</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <footer class="big-menu__footer footer">
+        <div class="footer__container container container--big">
+          <div class="footer__middle">
+            <div class="footer__column">
+              <p class="footer__column-title typography-h5 slice-text">Адрес</p>
+              <p class="footer__address slideup-text">125239, Москва<br />Фармацевтический проезд, д. 1</p>
+              <a href="#" class="link link--light-green"
+                ><span class="link__text-container"><span class="link__text">на карте </span></span
+                ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+              ></a>
+            </div>
+            <div class="footer__column footer__column--report">
+              <p class="footer__column-title footer__column-title--report typography-h5 slice-text">Сообщить</p>
+              <p class="footer__note slideup-text">
+                Сообщить о случае возникновения нежелательных явлений, связанных с применением лекарственного препарата,
+                можно заполнив форму обращения в службу фармаконадзора
+              </p>
+              <a href="#" class="link link--light-green"
+                ><span class="link__text-container"><span class="link__text">сообщить </span></span
+                ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+              ></a>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <p class="footer__copyright">© <span class="js-year"></span> 2022</p>
+            <a href="#" class="footer__privacy-policy">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="section search">
+      <div class="search__container container">
+        <div class="search" id="search">
+          <form class="search__top">
+            <input class="search__input" placeholder="Поиск" />
+            <button type="submit" class="search__submit">
+              <svg class="search__submit-icon" width="37" height="38">
+                <use xlink:href="img/sprite.svg#magnifier"></use>
+              </svg>
+              <span class="visually-hidden">Искать</span>
+            </button>
+            <button type="button" class="search__close search-toggle">
+              <svg class="search__close-icon" width="25" height="25"><use xlink:href="img/sprite.svg#close"></use></svg>
+              <span class="visually-hidden">Закрыть поиск</span>
+            </button>
+          </form>
+          <button class="search__clean clean">
+            <svg class="clean__icon" width="21" height="22"><use xlink:href="img/sprite.svg#close"></use></svg>
+            <span>Очистить</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.querySelector("#header").classList.add("header--inner", "inner");
+    </script>
+    <div class="inner-first contract-production-first production-first">
+      <div class="production-first__container contract-production-first__container container">
+        <div class="contract-production-first__left production-first__left">
+          <h1 class="contract-production-first__title production-first__title typography-h1 slice-text">
+            Контрактное производство
+          </h1>
+          <div
+            class="contract-production-first__subtitle production-first__subtitle typography-paragraphs slideup-text"
+          >
+            <p>
+              ЗАО «Московская фармацевтическая фабрика» открыто к сотрудничеству по вопросам контрактного производства
+              начиная со стадии лабораторного трансфера.
+            </p>
+            <button
+              class="contract-production-first__button contract-production-first__button--desktop production-first__button button modal-button"
+              data-modal="request"
+            >
+              <span class="button__text-container"><span class="button__text">оставить заявку </span></span
+              ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg>
+            </button>
+            <button
+              class="contract-production-first__button contract-production-first__button--mobile production-first__button link link--light-green modal-button"
+              data-modal="request"
+            >
+              <span class="link__text-container"><span class="link__text">оставить заявку </span></span
+              ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg>
+            </button>
+          </div>
+        </div>
+        <div class="production-first__right">
+          <div class="production-first__circle"></div>
+          <div class="production-first__frame-container">
+            <div class="production-first__frame-inner">
+              <video
+                id="video"
+                class="production-first__video"
+                width="440"
+                height="440"
+                preload="auto"
+                no-controls
+                loop
+                playsinline
+                muted
+              >
+                <source
+                  src="img/contract-production-page/video.mp4"
+                  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+                />
+              </video>
+            </div>
+            <div class="production-first__player-button-container">
+              <img
+                class="production-first__player-circle-text"
+                src="img/contract-production-page/circle-text.svg"
+                width="170"
+                height="170x"
+              />
+              <button class="production-first__player-button player-button" data-video="video">
+                <span class="visually-hidden">Запустить/остановить видео</span>
+                <svg class="player-button__icon player-button__icon--play" width="14" height="16">
+                  <use xlink:href="img/sprite.svg#player-play"></use>
+                </svg>
+                <svg class="player-button__icon player-button__icon--stop" width="9" height="14">
+                  <use xlink:href="img/sprite.svg#player-stop"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#second" class="inner-first__scroll-down scroll-down-button"
+        ><span class="visually-hidden">Следующий экран</span>
+        <svg class="scroll-down-button__icon" width="23" height="37">
+          <use xlink:href="img/sprite.svg#arrow-scroll-down"></use></svg
+      ></a>
+    </div>
+    <section class="contract-contacts" id="second">
+      <div class="contract-contacts__running-line running-line x3">
+        <div class="running-line__ticker">
+          <span class="running-line__collection running-line__collection--1"
+            ><span>таблетки</span> <span>капсулы</span> <span>порошки</span> <span>суппозитории</span>
+            <span>настойки</span> <span>экстракты</span> <span>капли</span> <span>сиропы</span> <span>таблетки</span>
+            <span>капсулы</span> <span>порошки</span> <span>суппозитории</span> <span>настойки</span>
+            <span>экстракты</span> <span>капли</span> <span>сиропы</span> <span>таблетки</span> <span>капсулы</span>
+            <span>порошки</span> <span>суппозитории</span> <span>настойки</span> <span>экстракты</span>
+            <span>капли</span> <span>сиропы</span> </span
+          ><span class="running-line__collection running-line__collection--2"
+            ><span>таблетки</span> <span>капсулы</span> <span>порошки</span> <span>суппозитории</span>
+            <span>настойки</span> <span>экстракты</span> <span>капли</span> <span>сиропы</span> <span>таблетки</span>
+            <span>капсулы</span> <span>порошки</span> <span>суппозитории</span> <span>настойки</span>
+            <span>экстракты</span> <span>капли</span> <span>сиропы</span> <span>таблетки</span> <span>капсулы</span>
+            <span>порошки</span> <span>суппозитории</span> <span>настойки</span> <span>экстракты</span>
+            <span>капли</span> <span>сиропы</span></span
+          >
+        </div>
+      </div>
+      <div class="contract-contacts__container container">
+        <p class="contract-contacts__note list-item">
+          Для получения консультации по вопросам контрактного производства звоните или пишите на электронную почту.
+        </p>
+        <p class="contract-contacts__info">
+          Тел.: <a href="tel:+74991592375">+7 (499) 159-23-75</a><br /><span class="contract-contacts__email"
+            >E-mail: <a href="mailto:po@mosfarma.ru">po@mosfarma.ru</a></span
+          >
+        </p>
+      </div>
+    </section>
+    <section class="contract-advantages">
+      <div class="banner banner--no-bg">
+        <div class="banner__container container">
+          <div class="banner__top contract-production-banner__top">
+            <div class="banner__text">
+              <p class="banner__paragraph typography-h4 slice-text">Преимущества контрактного производства с нами:</p>
+            </div>
+            <img
+              class="banner__circle-text rotating-circle"
+              src="img/production-page/circle-text-green.svg"
+              width="178"
+              height="177"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="contract-advantages__container container">
+        <ul class="contract-advantages__list">
+          <li class="contract-advantages__item folded">
+            <div class="folded__head">
+              <span class="folded__number slice-text">01</span>
+              <p class="folded__title folded__title--narrow">
+                ТЕХНОЛОГИЧЕСКИЕ ВОЗМОЖНОСТИ ДЛЯ ПРОИЗВОДСТВА РАЗНЫХ ВИДОВ ПРОДУКЦИИ
+              </p>
+              <svg class="folded__arrow-icon" width="28" height="15">
+                <use xlink:href="img/sprite.svg#accordion-arrow"></use>
+              </svg>
+            </div>
+            <div class="folded__body">
+              <div class="folded__image-container">
+                <a data-fslightbox="gallery-2" href="img/contract-production-page/2-технологические возмож.png"
+                  ><img
+                    class="folded__image"
+                    src="img/contract-production-page/2-технологические возмож.png"
+                    width="290"
+                    height="200"
+                /></a>
+              </div>
+              <div class="folded__inner folded__inner--narrow">
+                <p>Наличие технологических возможностей для производства разных видов продукции:</p>
+                <ul>
+                  <li>
+                    лекарственные средства:
+                    <ul>
+                      <li>твердые (таблетки, капсулы, порошки, суппозитории),</li>
+                      <li>жидкие (растворы, настойки, экстракты, капли, сиропы, спреи, суспензии),</li>
+                      <li>мягкие (гели, мази, кремы, пасты, линименты),</li>
+                    </ul>
+                  </li>
+                  <li>медицинские изделия (салфетки),</li>
+                  <li>БАД</li>
+                  <li>косметические средства,</li>
+                  <li>дезинфицирующие средства и антисептики.</li>
+                </ul>
+              </div>
+              <div class="folded__inner folded__inner--narrow">
+                <p>Наличие технологических возможностей для производства разных видов продукции:</p>
+                <ul>
+                  <li>
+                    лекарственные средства:
+                    <ul>
+                      <li>твердые (таблетки, капсулы, порошки, суппозитории),</li>
+                      <li>жидкие (растворы, настойки, экстракты, капли, сиропы, спреи, суспензии),</li>
+                      <li>мягкие (гели, мази, кремы, пасты, линименты),</li>
+                    </ul>
+                  </li>
+                  <li>медицинские изделия (салфетки),</li>
+                  <li>БАД</li>
+                  <li>косметические средства,</li>
+                  <li>дезинфицирующие средства и антисептики.</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="contract-advantages__item folded">
+            <div class="folded__head">
+              <span class="folded__number slice-text">02</span>
+              <p class="folded__title folded__title--narrow">Производство малых серий продукции</p>
+              <svg class="folded__arrow-icon" width="28" height="15">
+                <use xlink:href="img/sprite.svg#accordion-arrow"></use>
+              </svg>
+            </div>
+            <div class="folded__body">
+              <div class="folded__image-container">
+                <a data-fslightbox="gallery-3" href="img/contract-production-page/3-производство-малых-серий.png"
+                  ><img
+                    class="folded__image"
+                    src="img/contract-production-page/3-производство-малых-серий.png"
+                    width="290"
+                    height="200"
+                /></a>
+              </div>
+              <div class="folded__inner folded__inner--narrow">
+                <p>
+                  Возможность производства малых серий продукции как при промышленном выпуске, так при необходимости
+                  проведения испытаний и исследований продукции при разработке и запуске в производство.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="contract-advantages__item folded">
+            <div class="folded__head">
+              <span class="folded__number slice-text">03</span>
+              <p class="folded__title folded__title--narrow">ГИБКИЙ ПОДХОД ДЛЯ ПАРТНЕРСТВА</p>
+              <svg class="folded__arrow-icon" width="28" height="15">
+                <use xlink:href="img/sprite.svg#accordion-arrow"></use>
+              </svg>
+            </div>
+            <div class="folded__body">
+              <div class="folded__image-container">
+                <a data-fslightbox="gallery-4" href="img/contract-production-page/4--гибкий-подход.png"
+                  ><img
+                    class="folded__image"
+                    src="img/contract-production-page/4--гибкий-подход.png"
+                    width="290"
+                    height="200"
+                /></a>
+              </div>
+              <div class="folded__inner folded__inner--narrow">
+                <p>
+                  Возможность реализации проекта как на всех стадиях жизненного цикла продукции, начиная от
+                  лабораторного трансфера, так и на отдельных стадиях.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="contract-advantages__item folded">
+            <div class="folded__head">
+              <span class="folded__number slice-text">04</span>
+              <p class="folded__title folded__title--narrow">МАРКИРОВКА ВТОРИЧНОЙ УПАКОВКИ СРЕДСТВАМИ ИДЕНТИФИКАЦИИ</p>
+              <svg class="folded__arrow-icon" width="28" height="15">
+                <use xlink:href="img/sprite.svg#accordion-arrow"></use>
+              </svg>
+            </div>
+            <div class="folded__body">
+              <div class="folded__image-container">
+                <a data-fslightbox="gallery-5" href="img/contract-production-page/5-маркировка вторичной.png"
+                  ><img
+                    class="folded__image"
+                    src="img/contract-production-page/5-маркировка вторичной.png"
+                    width="290"
+                    height="200"
+                /></a>
+              </div>
+              <div class="folded__inner folded__inner--narrow">
+                <p>
+                  Мы также оказываем услугу по маркировке вторичной упаковки средствами идентификации для целей
+                  маркировки и отслеживания движения ваших лекарственных препаратов.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="contract-advantages__item folded">
+            <div class="folded__head">
+              <span class="folded__number slice-text">05</span>
+              <p class="folded__title folded__title--narrow">Логистически удобная локация</p>
+              <svg class="folded__arrow-icon" width="28" height="15">
+                <use xlink:href="img/sprite.svg#accordion-arrow"></use>
+              </svg>
+            </div>
+            <div class="folded__body">
+              <div class="folded__image-container">
+                <a data-fslightbox="gallery-1" href="img/contract-production-page/1-логисстически удобная локация.jpg"
+                  ><img
+                    class="folded__image"
+                    src="img/contract-production-page/1-логисстически удобная локация.jpg"
+                    width="290"
+                    height="337"
+                /></a>
+              </div>
+              <div class="folded__inner folded__inner--narrow">
+                <p>
+                  Выгодное расположение на севере Москвы относительно крупных транспортных узлов - в непосредственной
+                  близости расположены:
+                </p>
+                <ul>
+                  <li>международные и внутригосударственные грузовые и таможенные терминалы аэропорта Шереметьево;</li>
+                  <li>
+                    Северо-Восточная и Северо-Западная хорды столицы, связывающие основные вылетные магистрали города;
+                  </li>
+                  <li>железнодорожный транспортный узел.</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section quality">
+      <div class="quality__container container">
+        <div class="quality__text">
+          <h2 class="quality__title typography-h5 slice-text">
+            Выпуск продукции осуществляется в соответствии с требованиями стандартов ISO и GMP
+          </h2>
+        </div>
+        <div class="quality__circles quality-circles">
+          <div class="quality-circles__item quality-circles__item--iso">
+            <span class="quality-circles__text">ISO</span>
+            <div class="quality-circles__bg"></div>
+          </div>
+          <div class="quality-circles__item quality-circles__item--gmp">
+            <span class="quality-circles__text">GMP</span>
+            <div class="quality-circles__bg"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contract-agreement">
+      <div class="contract-agreement__container container">
+        <h2 class="contract-agreement__title typography-h4 slice-text">
+          Система качества и система Фармаконадзора в части контрактного производства
+        </h2>
+        <ul class="contract-agreement__list">
+          <li class="contract-agreement__item slideup-text">
+            <span class="contract-agreement__number">01</span>
+            <div class="contract-agreement__text typography-paragraphs">
+              <h4 class="contract-agreement__item-title typography-h7">Соглашение по качеству</h4>
+              <p>
+                Распределение ответственности сторон при выполнении обязательств, касающихся производства и контроля
+                качества продукции при контрактном производстве закрепляется в Соглашении по качеству или в приложении к
+                договору, которые является неотъемлемой его частью.
+              </p>
+            </div>
+          </li>
+          <li class="contract-agreement__item slideup-text">
+            <span class="contract-agreement__number">02</span>
+            <div class="contract-agreement__text typography-paragraphs">
+              <h4 class="contract-agreement__item-title typography-h7">Соглашение по фармаконадзору</h4>
+              <p>
+                С целью обеспечения адекватного обмена данными по мониторингу безопасности лекарственных препаратов в
+                рамках контрактного производства, заключается Соглашение по фармаконадзору.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="contract-footer">
+      <div class="contract-footer__running-line running-line running-line--green-bg">
+        <div class="running-line__ticker">
+          <span class="running-line__collection running-line__collection--1"
+            ><span>таблетки</span> <span>капсулы</span> <span>порошки</span> <span>суппозитории</span>
+            <span>настойки</span> <span>экстракты</span> <span>капли</span> <span>сиропы</span> </span
+          ><span class="running-line__collection running-line__collection--2"
+            ><span>таблетки</span> <span>капсулы</span> <span>порошки</span> <span>суппозитории</span>
+            <span>настойки</span> <span>экстракты</span> <span>капли</span> <span>сиропы</span></span
+          >
+        </div>
+      </div>
+      <div class="contract-footer__container container">
+        <div class="contract-footer__left">
+          <h2 class="contract-footer__title typography-h3 slice-text">Отправить заявку на контрактное производство</h2>
+          <button class="contract-footer__button button modal-button" data-modal="request">
+            <span class="button__text-container"><span class="button__text">оставить заявку </span></span
+            ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg>
+          </button>
+        </div>
+        <div class="contract-footer__right slideup-text">
+          <p class="contract-footer__subtitle">контакты отдела по вопросам контрактного производства</p>
+          <p class="contract-footer__contacts">
+            Тел.: <a href="tel:+74991592375">+7 (499) 159-23-75</a><br />E-mail:
+            <a href="mailto:po@mosfarma.ru">po@mosfarma.ru</a>
+          </p>
+        </div>
+      </div>
+      <div class="contract-footer__image-container">
+        <a
+          class="contract-footer__image"
+          data-fslightbox="gallery-contract-footer"
+          href="img/contract-production-page/footer.jpg"
+          ><img
+            class="contract-footer__image"
+            src="img/contract-production-page/footer.jpg"
+            width="1280"
+            height="540"
+            alt=""
+        /></a>
+      </div>
+    </section>
+    <div class="modal" id="request">
+      <div class="modal__overlay"></div>
+      <div class="modal__content">
+        <div class="modal__container">
+          <div class="modal__inner modal-form">
+            <h4 class="modal-form__title typography-h5 upperce">заявка на<br />контрактное производство</h4>
+            <p class="modal-form__subtitle">* - поля, обязательные для заполнения</p>
+            <div class="modal-form__input input">
+              <label class="input__label"
+                ><input class="input__field" placeholder=" " /> <span class="input__hint">ФИО*</span>
+                <span class="input__bottom-border"></span
+              ></label>
+            </div>
+            <div class="modal-form__input input">
+              <label class="input__label"
+                ><input class="input__field" placeholder=" " />
+                <span class="input__hint">Название вашей организации</span> <span class="input__bottom-border"></span
+              ></label>
+            </div>
+            <div class="modal-form__input input">
+              <label class="input__label"
+                ><input class="input__field" type="tel" placeholder=" " />
+                <span class="input__hint">Контактный телефон*</span> <span class="input__bottom-border"></span
+              ></label>
+            </div>
+            <div class="modal-form__input input">
+              <label class="input__label"
+                ><input class="input__field" type="email" placeholder=" " /> <span class="input__hint">E-mail*</span>
+                <span class="input__bottom-border"></span
+              ></label>
+            </div>
+            <div class="modal-form__input input">
+              <label class="input__label"
+                ><input class="input__field" type="email" placeholder=" " />
+                <span class="input__hint">Текст сообщения</span> <span class="input__bottom-border"></span
+              ></label>
+            </div>
+            <div class="modal-form__approval checkbox checkbox--small">
+              <input type="checkbox" class="checkbox__field visually-hidden" name="approval" id="approval" />
+              <label class="checkbox__label" for="approval"
+                >Я ознакомился(лась) с <a href="policy.html">политикой оператора</a> в отношении обработки персональных
+                данных и даю <a href="policy.html">согласие</a> на обработку персональных данных.</label
+              >
+            </div>
+            <button class="modal-form__button button">
+              <span class="button__text-container"><span class="button__text">отправить заявку </span></span
+              ><svg class="button__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg>
+            </button>
+          </div>
+          <button class="modal__close">
+            <svg class="modal__close-icon" width="27" height="28"><use xlink:href="img/sprite.svg#close"></use></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__container container container--big">
+        <nav class="footer__top">
+          <img
+            class="footer__logo logo logo__image"
+            src="img/logo-light-green.svg"
+            width="121"
+            height="25"
+            alt="Логотип МосФарма"
+          />
+          <ul class="footer__menu footer-menu">
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">О компании</a></li>
+            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Продукция</a></li>
+            <li class="footer-menu__item">
+              <a href="./contract-production.html" class="footer-menu__link">Контрактное производство</a>
+            </li>
+            <li class="footer-menu__item">
+              <a href="./our-pharmacy.html" class="footer-menu__link">Аптека МосФарма</a>
+            </li>
+            <li class="footer-menu__item"><a href="./contacts.html" class="footer-menu__link">Контакты</a></li>
+            <li class="footer-menu__item"><a href="./inspection.html" class="footer-menu__link">Фармаконадзор</a></li>
+          </ul>
+        </nav>
+        <div class="footer__middle">
+          <div class="footer__column footer__column--feedback">
+            <p class="footer__column-title typography-h5 slice-text">Есть, что обсудить?<br />Напишите нам</p>
+            <a href="mailto:info@mosfarma.ru" class="footer__email button button--big button--lowercase"
+              ><span class="button__text-container"><span class="button__text">info@mosfarma.ru</span></span></a
+            >
+          </div>
+          <div class="footer__column">
+            <p class="footer__column-title typography-h5 slice-text">Адрес</p>
+            <p class="footer__address slideup-text">125239, Москва<br />Фармацевтический проезд, д. 1</p>
+            <a href="#" class="link link--light-green"
+              ><span class="link__text-container"><span class="link__text">на карте </span></span
+              ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+            ></a>
+          </div>
+          <div class="footer__column footer__column--report">
+            <p class="footer__column-title footer__column-title--report typography-h5 slice-text">Сообщить</p>
+            <p class="footer__note slideup-text">
+              Сообщить о случае возникновения нежелательных явлений, связанных с применением лекарственного препарата,
+              можно заполнив форму обращения в службу фармаконадзора
+            </p>
+            <a href="#" class="link link--light-green"
+              ><span class="link__text-container"><span class="link__text">сообщить </span></span
+              ><svg class="link__icon" width="17" height="11"><use xlink:href="img/sprite.svg#arrow"></use></svg
+            ></a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">© <span class="js-year">2020</span></p>
+          <a href="#" class="footer__privacy-policy">Политика конфиденциальности</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
