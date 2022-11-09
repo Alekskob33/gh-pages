@@ -1,0 +1,521 @@
+{
+  "meta": {
+    "title": "Max Pirogov",
+    "desc": "Portfolio"
+  },
+  "header": {
+    "text": {
+      "title": "Max Pirogov. Creative product designer",
+      "showreel": "Showreel",
+      "back": "back",
+      "cv": "CV",
+      "cv_link": ""
+    },
+    "video": {
+      "fileName": "Showreel"
+    },
+    "list_items": [
+      {
+        "text": "practice",
+        "href": "#practice",
+        "color": "#AB9B73",
+        "subtitle": "Brand + UXUI",
+        "picture": "./item-picture/pic1.jpg",
+        "rowContent": {
+          "1": {
+            " sex-cover.png": {
+              "startColumn": "2",
+              "stretchColumns": "4",
+              "shape": "oval",
+              "mediaMaxWidth": "918px"
+            }
+          },
+          "2": {
+            "practice-mov1.png": {
+              "startColumn": "1",
+              "stretchColumns": "2",
+              "shape": "",
+              "mediaMaxWidth": "598px"
+            }
+          },
+          "3": {
+            "practice-chat.png": {
+              "startColumn": "1",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "1246px"
+            }
+          },
+          "4": {
+            "practice-mov2.png": {
+              "startColumn": "1",
+              "stretchColumns": "2",
+              "shape": "",
+              "mediaMaxWidth": "175px"
+            }
+          },
+          "5": {
+            "practice-partner1.png": {
+              "startColumn": "1",
+              "stretchColumns": "4",
+              "shape": "oval",
+              "mediaMaxWidth": "598px"
+            }
+          },
+          "6": {
+            "practice-alert.png": {
+              "startColumn": "1",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "270px"
+            }
+          },
+          "7": {
+            "practice-onb.png": {
+              "startColumn": "2",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "270px"
+            }
+          },
+          "8": {
+            "practice-figma.png": {
+              "startColumn": "1",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "1246px"
+            }
+          }
+        },
+        "textBlock": {
+          "title": "Result",
+          "text": "Designed from idea to&nbsp;🚀&nbsp;production version for&nbsp;a&nbsp;10&nbsp;days. <br>Pet project <br><br><a href='' target='_blank'>App Store</a>"
+        }
+      },
+
+
+
+
+      {
+        "text": "pik web",
+        "href": "#pik-web",
+        "color": "#4285F4",
+        "subtitle": "UXUI + leading",
+        "picture": "./item-picture/pic2.jpg",
+        "rowContent": {
+          "1": {
+            "pikweb-cover.png": {
+              "startColumn": "1",
+              "stretchColumns": "3",
+              "shape": "oval",
+              "mediaMaxWidth": "918px"
+            }
+          },
+          "2": {
+            "pikweb-redesign.mp4": {
+              "startColumn": "1",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "900px"
+            }
+          },
+          "3": {
+            "pikweb-payments.png": {
+              "startColumn": "3",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "598px"
+            }
+          },
+          "4": {
+            "Payments-concept.jpg": {
+              "startColumn": "1",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "1200px"
+            }
+          },
+          "5": {
+            "pikweb-payments.mp4": {
+              "startColumn": "1",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "700px"
+            }
+          },
+          "6": {
+            "pikweb-chat.png": {
+              "startColumn": "3",
+              "stretchColumns": "4",
+              "shape": "oval",
+              "mediaMaxWidth": "598px"
+            }
+          },
+          "7": {
+            "pikweb-chat-mobile.png": {
+              "startColumn": "3",
+              "stretchColumns": "4",
+              "shape": "oval",
+              "mediaMaxWidth": "598px"
+            }
+          },
+          "8": {
+            "pikweb-casereel.mp4": {
+              "startColumn": "1",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "700px"
+            }
+          }
+        },
+        "textBlock": {
+          "title": "Result",
+          "text": "Less 2%&nbsp;requests to&nbsp;support on&nbsp;«How to&nbsp;find a&nbsp;specific feature» from&nbsp;clients of&nbsp;service<br><br><a href='https://new.pik-comfort.ru/signin/' target='_blank'>pik-comfort.ru</a>"
+        }
+      },
+
+
+
+
+
+      {
+        "text": "igloo",
+        "href": "#igloo",
+        "color": "#2D3E40",
+        "subtitle": "CX + UX + UI",
+        "picture": "./item-picture/pic3.jpg",
+        "rowContent": {
+          "1": {
+            "igloo-cover.png": {
+              "startColumn": "1",
+              "stretchColumns": "4",
+              "shape": "oval",
+              "mediaMaxWidth": "900px"
+            }
+          },
+          "2": {
+            "igloo-gadjet.png": {
+              "startColumn": "1",
+              "stretchColumns": "2",
+              "shape": "",
+              "mediaMaxWidth": "598px"
+            }
+          }
+        },
+        "textBlock": {
+          "title": "nda",
+          "text": "Unfortunately, it’s&nbsp;🙊&nbsp;NDA-project. But, I&nbsp;can describe, that I&nbsp;did:<br> – UX-analysing of&nbsp;the pre-version app,<br> – research,<br> – userstory-design,<br> – custdev,<br> – UI-design.<br><br><a href='https://experimentx.co/igloo/' target='_blank'>©&nbsp;ExperimentX.co</a>"
+        }
+      },
+
+
+
+      {
+        "text": "pik app",
+        "href": "#pik-app",
+        "color": "#012292",
+        "subtitle": "UXUI + leading",
+        "picture": "./item-picture/pic4.jpg",
+        "rowContent": {
+          "1": {
+            "pikapp-cover.png": {
+              "startColumn": "1",
+              "stretchColumns": "2",
+              "shape": "oval",
+              "mediaMaxWidth": "598px"
+            }
+          },
+          "2": {
+            "pik-02.gif": {
+              "startColumn": "3",
+              "stretchColumns": "1",
+              "shape": "",
+              "mediaMaxWidth": "110px"
+            }
+          },
+          "3": {
+            "pikapp-payments.mp4": {
+              "startColumn": "1",
+              "stretchColumns": "2",
+              "shape": "",
+              "mediaMaxWidth": "280px"
+            }
+          },
+          "4": {
+            "pikapp-payments.png": {
+              "startColumn": "1",
+              "stretchColumns": "1",
+              "shape": "",
+              "mediaMaxWidth": "220px"
+            }
+          },
+          "5": {
+            "pikapp-meters.png": {
+              "startColumn": "2",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "926px"
+            }
+          },
+          "6": {
+            "pikapp-help.png": {
+              "startColumn": "1",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "305px"
+            }
+          },
+          "7": {
+            "pik-chat.png": {
+              "startColumn": "3",
+              "stretchColumns": "4",
+              "shape": "oval",
+              "mediaMaxWidth": "598px"
+            }
+          },
+          "8": {
+            "pikapp-nps.png": {
+              "startColumn": "3",
+              "stretchColumns": "4",
+              "shape": "oval",
+              "mediaMaxWidth": "598px"
+            }
+          },
+          "9": {
+            "pikapp-plus.png": {
+              "startColumn": "1",
+              "stretchColumns": "2",
+              "shape": "",
+              "mediaMaxWidth": "598px"
+            }
+          },
+          "10": {
+            "pik-android-mockups.png": {
+              "startColumn": "1",
+              "stretchColumns": "3",
+              "shape": "",
+              "mediaMaxWidth": "922px"
+            }
+          },
+          "11": {
+            "pikapp-motion.png": {
+              "startColumn": "3",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "598px"
+            }
+          },
+          "12": {
+            "pikapp-vibra.png": {
+              "startColumn": "4",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "345px"
+            }
+          },
+          "13": {
+            "pikapp-videocase.mp4": {
+              "startColumn": "1",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "800px"
+            }
+          }
+        },
+        "textBlock": {
+          "title": "Result",
+          "text": "24%&nbsp;of&nbsp;the&nbsp;clients, who used to&nbsp;pay bills via Sberbank-online, now converted into PIK users and&nbsp;🤑&nbsp;pay for&nbsp;their housing services with our&nbsp;app <br><br>After the&nbsp;launch of&nbsp;the&nbsp;design, the&nbsp;app's ⭐️ rating in&nbsp;the App&nbsp;Store increased from&nbsp;2.3 to&nbsp;4.8<br><br>PM: Eugeny, Ann <br>illustrator: Masha <br>UXUI, leadign:&nbsp;me<br><br><a href='https://apps.apple.com/ru/app/%D0%BF%D0%B8%D0%BA-%D0%BA%D0%BE%D0%BC%D1%84%D0%BE%D1%80%D1%82-%D0%BC%D0%BE%D0%B9-%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82/id1425791360' target='_blank'>App Store</a><br><a href='https://play.google.com/store/apps/details?id=apiqa.ru.residentcabinetandroid' target='_blank'>Google Play</a>"
+        }
+      },
+
+
+      {
+        "text": "doma.ai",
+        "href": "#doma",
+        "color": "#99D2C2",
+        "subtitle": "Head product designer",
+        "picture": "./item-picture/pic5.jpg",
+        "rowContent": {
+          "1": {
+            "doma-crm.png": {
+              "startColumn": "2",
+              "stretchColumns": "4",
+              "shape": "oval",
+              "mediaMaxWidth": "900px"
+            }
+          },
+          "2": {
+            "doma-app-c.png": {
+              "startColumn": "1",
+              "stretchColumns": "2",
+              "shape": "oval",
+              "mediaMaxWidth": "598px"
+            }
+          },
+          "3": {
+            "doma-app-e.png": {
+              "startColumn": "1",
+              "stretchColumns": "2",
+              "shape": "oval",
+              "mediaMaxWidth": "598px"
+            }
+          }
+        },
+        "textBlock": {
+          "title": "Result",
+          "text": "Doma.ai became the&nbsp;4th company in&nbsp;terms of&nbsp;revenue and&nbsp;square meters of&nbsp;real estate in&nbsp;8&nbsp;months.<br><br><a href='https://apps.apple.com/us/app/doma/id1573897686' target='_blank'>Customers app</a><br><a href='https://apps.apple.com/us/app/%D0%BC%D0%B0%D1%81%D1%82%D0%B5%D1%80-doma/id1588095163' target='_blank'>Employees app</a><br><a href='https://v1.doma.ai/' target='_blank'>CRM</a><br><br>Case coming <br>soon"
+        }
+      },
+
+
+      {
+        "text": "coincom",
+        "href": "#coincom",
+        "color": "#474B6C",
+        "subtitle": "UXUI + leading",
+        "picture": "./item-picture/pic6.jpg",
+        "rowContent": {
+          "1": {
+            "coin-cover.png": {
+              "startColumn": "3",
+              "stretchColumns": "4",
+              "shape": "oval",
+              "mediaMaxWidth": "600px"
+            }
+          },
+          "2": {
+            "coin-pos.png": {
+              "startColumn": "3",
+              "stretchColumns": "4",
+              "shape": "oval",
+              "mediaMaxWidth": "600px"
+            }
+          },
+          "3": {
+            "coin-video.mp4": {
+              "startColumn": "2",
+              "stretchColumns": "3",
+              "shape": "",
+              "mediaMaxWidth": "700px"
+            }
+          }
+        },
+        "textBlock": {
+          "title": "result",
+          "text": "+10%&nbsp;increase in&nbsp;conversion with&nbsp;the&nbsp;UX launch.<br>Investments in&nbsp;design 100%&nbsp;payback in&nbsp;a&nbsp;month<br><br><a href='https://2gis.ru/moscow/branches/70000001027759766?m=37.553877%2C55.805512%2F10' target='_blank'>Check&nbsp;it</a>"
+        }
+      },
+
+
+      {
+        "text": "polza",
+        "href": "#polza",
+        "color": "#FF005F",
+        "subtitle": "CX + UX + UI",
+        "picture": "./item-picture/pic1.jpg",
+        "rowContent": {
+          "1": {
+            "polza-cover.png": {
+              "startColumn": "1",
+              "stretchColumns": "4",
+              "shape": "oval",
+              "mediaMaxWidth": "598px"
+            }
+          },
+          "2": {
+            "polza-sketch.png": {
+              "startColumn": "1",
+              "stretchColumns": "2",
+              "shape": "oval",
+              "mediaMaxWidth": "598px"
+            }
+          },
+          "3": {
+            "polza-wf.png": {
+              "startColumn": "1",
+              "stretchColumns": "2",
+              "shape": "",
+              "mediaMaxWidth": "364px"
+            }
+          },
+          "4": {
+            "polza-indexpage.png": {
+              "startColumn": "1",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "1246px"
+            }
+          },
+          "5": {
+            "polza-card.png": {
+              "startColumn": "1",
+              "stretchColumns": "2",
+              "shape": "",
+              "mediaMaxWidth": "378px"
+            }
+          },
+          "6": {
+            "polza-up.png": {
+              "startColumn": "1",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "334px"
+            }
+          },
+          "7": {
+            "polza-history.png": {
+              "startColumn": "1",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "1246px"
+            }
+          },
+          "8": {
+            "polza-mobile-history.png": {
+              "startColumn": "2",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "200px"
+            }
+          },
+          "9": {
+            "polza-offercard.png": {
+              "startColumn": "1",
+              "stretchColumns": "2",
+              "shape": "",
+              "mediaMaxWidth": "598px"
+            }
+          },
+          "10": {
+            "polza-mobile-offers.png": {
+              "startColumn": "3",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "240px"
+            }
+          },
+          "11": {
+            "polza-videocase.mp4": {
+              "startColumn": "1",
+              "stretchColumns": "4",
+              "shape": "",
+              "mediaMaxWidth": "800px"
+            }
+          },
+          "12": {
+            "polza-awards.png": {
+              "startColumn": "1",
+              "stretchColumns": "2",
+              "shape": "",
+              "mediaMaxWidth": "598px"
+            }
+          }
+        },
+        "textBlock": {
+          "title": "Result",
+          "text": "+12%&nbsp;to&nbsp;💎&nbsp;ads views through recommended offers on&nbsp;Offers page<br><br><a href='http://polza.homecredit.ru' target='_blank'>homecredit.ru</a>"
+        }
+      }
+    ]
+  }
+}

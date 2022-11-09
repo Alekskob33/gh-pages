@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="black">
+    <meta name="msapplication-navbutton-color" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="favicons/browserconfig.xml">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+    <title>Pirogov. Portfolio</title>
+    <style></style>
+  <link href="style.css" rel="stylesheet"></head>
+  <body>
+<div class="preloader" id="preloader">
+  <div class="container">
+    <input class="preloader__counter" type="text" value="0" readonly size="2">
+  </div>
+  <div class="preloader__img-wrapper" style="opacity: 0"><img srcset="./preloader/pic1@2x.jpg 2x" sizes="150px" width="150px" src="./preloader/pic1.jpg" alt="pic"><img srcset="./preloader/pic2@2x.jpg 2x" sizes="150px" width="150px" src="./preloader/pic2.jpg" alt="pic"><img srcset="./preloader/pic3@2x.jpg 2x" sizes="150px" width="150px" src="./preloader/pic3.jpg" alt="pic"><img srcset="./preloader/pic4@2x.jpg 2x" sizes="150px" width="150px" src="./preloader/pic4.jpg" alt="pic"><img srcset="./preloader/pic5@2x.jpg 2x" sizes="150px" width="150px" src="./preloader/pic5.jpg" alt="pic"><img srcset="./preloader/pic6@2x.jpg 2x" sizes="150px" width="150px" src="./preloader/pic6.jpg" alt="pic"></div>
+</div>
+<header class="header" id="header">
+  <div class="header__video-container"></div>
+  <div class="row-top container">
+    <div class="row-top__left-col">
+      <button class="row-top__btn-back is-hidden" data-btn="back">back</button><span class="row-top__text is-hidden">Maks Pirogov — head designer at doma.ai</span>
+    </div>
+    <div class="row-top__right-col">
+      <button class="row-top__btn-stop is-hidden">Stop</button>
+      <button class="row-top__btn is-hidden">Showreel</button>
+    </div>
+  </div>
+  <div class="list-wrapper" id="list_wrapper">
+    <div class="list-wrapper__img-container"></div>
+    <ul id="list"></ul>
+    <div class="subtitle-row"><span class="is-hidden no-transition">UX/UI design + leading</span></div>
+  </div>
+  <div class="row-bottom container"><a class="row-bottom__link is-hidden" href="" target="_blank">CV</a></div>
+</header>
+  <script defer src="vendors.js"></script><script defer src="main.js"></script></body>
+</html>
